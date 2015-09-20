@@ -24,17 +24,11 @@ class WooyunPipeline(object):
 
         self.__total_records = 0
         self.__newtotal_records = 0
-        #self.__log = None
-    def open_spider(self, spider):
-        self.__log = open("logs.log","r+")
-        self.__total_records = self.__log.readline(-2).split("|")[0]
 
-        
+    def open_spider(self, spider):
+        pass
+    
     def close_spider(self, spider):
-        #self.__log = open("logs.log","w")
-        data = str(self.__total_records) + "|     " + str(datetime.utcnow()) + "\n"
-        self.__log.write(data)
-        self.__log.close()
         self.__client.close()                                            #当spider关闭则关闭数据库连接
 
     def process_item(self, item, spider):
@@ -45,13 +39,12 @@ class WooyunPipeline(object):
 
         if item['images']:                                               #如果有图片，则把图片的地址换成本地地址,images存放有图片的path,url和checksum值
             for it in item['images']:
-                p = re.compile(it['url'])
-                if p.search(item['html']):
-                    item['html'] = item['html'].replace(it['url'],"../../static/images/" + it['path'])
+                #p = re.compile(it['url'])
+                #if p.search(item['html']):
+                item['html'] = item['html'].replace(it['url'],"../../static/images/" + it['path'])
         
         item['html'] = item['html'].replace(css,re_css).replace(js, re_js)#替换css和js
 
-        self.__newtotal_records = item['total_records']
         if self.__total_records == self.__newtotal_records:
             self.close_spider(spider)
 
@@ -65,7 +58,6 @@ class WooyunPipeline(object):
             'Content': item['html']
         }
         self.__db_posts.insert(post)                     #执行插入，将数据插入到数据库
-
         return item
 
 class WooyunImagesPipeline(ImagesPipeline):             #这个ImagePipeline用来下载图片，但下载下来的图片用hash值作为文件名，不是原来的文件名
@@ -86,5 +78,4 @@ class WooyunImagesPipeline(ImagesPipeline):             #这个ImagePipeline用�
         if not image_paths:
             raise DropItem("Item contains no images")
         item['image_paths'] = image_paths
-
         return item
