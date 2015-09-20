@@ -41,9 +41,10 @@ class WooyunSpider(Spider):
         sel = Selector(response)
         item = WooyunItem()
         item['title'] = sel.xpath('//title/text()').extract()[0].split("|")[0]
-        item['vul_type'] = sel.xpath("//h3[@class='wybug_type']/text()").extract()[0].replace('\t', '').replace('\n', '')
+        item['vul_type'] = sel.xpath("//h3[@class='wybug_type']/text()").extract()[0].replace('\t', '').replace('\n', '').split(u'：')[1]
         item['date'] = sel.xpath("//h3[@class='wybug_date']/text()").re("[\d+]{4}-[\d+]{2}-[\d+]{2}")[0]
         item['open_time'] = sel.xpath("//h3[@class='wybug_open_date']/text()").re("[\d+]{4}-[\d+]{2}-[\d+]{2} [\d+]{2}:[\d+]{2}")[0]
+        item['author'] = sel.xpath("//h3[@class='wybug_author']/a/text()").extract()[0]
         item['html'] = sel.xpath('/*').extract()[0]
         item['image_urls'] = sel.xpath("//img[contains(@src, 'http://static.wooyun.org/wooyun/upload/')]/@src").extract()
         item['total_records'] = self.__total_records

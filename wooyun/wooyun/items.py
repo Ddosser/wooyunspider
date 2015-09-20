@@ -16,6 +16,7 @@ class WooyunItem(scrapy.Item):
     date = scrapy.Field()       #漏洞申报时间，其实应该还有公开时间
     open_time = scrapy.Field()  #公开时间,作为定期更新的依据,更新的数量用总记录来比较。
     html = scrapy.Field()       #文章html源码
+    author = scrapy.Field()     #
     total_records = scrapy.Field() #
     image_urls = scrapy.Field() #文章里的图片地址
     images = scrapy.Field()     #已下载的图片

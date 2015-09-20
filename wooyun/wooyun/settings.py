@@ -11,7 +11,7 @@
 
 BOT_NAME = 'wooyun'
 
-IMAGES_STORE = '../../../static/images'             #存放图片的路径
+IMAGES_STORE = '../app/static/images'             #存放图片的路径
 DOWNLOAD_DELAY=1                    #设置下载延迟，为1秒
 IMAGES_EXPIRES = 90                 #设置图片过期时间，避免重复下载
 IMAGES_MIN_HEIGHT = 110             #以下两项过滤小图片，可根据实际设置

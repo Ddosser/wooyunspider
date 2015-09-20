@@ -55,7 +55,7 @@ def main():
     db_name = "wooyun"
     conn = DB_Connection(db_name)
     flag = 1
-    q = "话说联系方式都要了"
+    q = "SQL"
     i = 0
     for data in conn.db_query(q):
     	i += 1

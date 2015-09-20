@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron masthead">
+    <div class="row">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+            <th class="th text-center">序号</th>
+            <th class="th text-center">标题</th>
+            <th class="th text-center">漏洞类型</th>
+            <th class="th text-center">提交时间</th>
+            <th class="th text-center">公开时间</th>
+            <th class="th text-center">作者</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        {% if data %}
+            {% for res in data %}
+             <tr class="success">
+                <td class="td text-center">{{ res['_id'] }}</td>
+                <td class="td text-left"><a href = "/detail/{{ res['_id'] }}" target="_blank">{{res['Title']}}</a></td>
+                <td class="td text-center">{{res['Vul_Type']}}</td>
+                <td class="td text-center">{{res['Date']}}</td>
+                <td class="td text-center">{{res['Open Time']}}</td>
+                <td class="td text-center">{{res['Author']}}</td>
+            </tr>
+            {% endfor %}
+        {% else %}
+            <tr class="warning">
+                <td class="text-center">没有搜索到关于{{search}}的结果</td>
+            </tr>
+        {% endif %}
+        </tbody>
+    </table>
+    
+    </div>
+</div>
+{% endblock %}
