@@ -1,38 +1,77 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="jumbotron masthead">
-    <div class="row">
-    <table class="table table-hover">
-        <thead>
-            <tr>
-            <th class="th text-center">序号</th>
-            <th class="th text-center">标题</th>
-            <th class="th text-center">漏洞类型</th>
-            <th class="th text-center">提交时间</th>
-            <th class="th text-center">公开时间</th>
-            <th class="th text-center">作者</th>
-            </tr>
-        </thead>
 
-        <tbody>
-        {% if data %}
-            {% for res in data %}
-             <tr class="success">
-                <td class="td text-center">{{ res['_id'] }}</td>
-                <td class="td text-left"><a href = "/detail/{{ res['_id'] }}" target="_blank">{{res['Title']}}</a></td>
-                <td class="td text-center">{{res['Vul_Type']}}</td>
-                <td class="td text-center">{{res['Date']}}</td>
-                <td class="td text-center">{{res['Open Time']}}</td>
-                <td class="td text-center">{{res['Author']}}</td>
-            </tr>
+<div class="row offset2">
+    <div>
+        <h3 class="h2 text-center">关于&nbsp[{{ page_info['keyword'] }}]&nbsp的漏洞共有{{page_info['currentpage']}}/{{ page_info['totalpage'] }}页 {{ page_info['records'] }}篇</h3><br>
+    </div>
+    <div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                <th class="th text-center">序&nbsp&nbsp&nbsp&nbsp号</th>
+                <th class="th text-center">标&nbsp&nbsp&nbsp&nbsp题</th>
+                <th class="th text-center">漏洞类型</th>
+                <th class="th text-center">提交时间</th>
+                <th class="th text-center">公开时间</th>
+                <th class="th text-center">提&nbsp&nbsp交&nbsp&nbsp者</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            {% for res in page_info['rows'] %}
+                <tr class="success">
+                    <td class="td text-center">{{ res['WooyunID'] }}</td>
+                    <td class="td text-left"><a href = "/{{ res['WooyunID'] }}" target="_blank">{{res['Title']}}</a></td>
+                    <td class="td text-center">{{res['Vul_Type']}}</td>
+                    <td class="td text-center">{{res['Date']}}</td>
+                    <td class="td text-center">{{res['Open Time']}}</td>
+                    <td class="td text-center">{{res['Author']}}</td>
+                </tr>
             {% endfor %}
-        {% else %}
-            <tr class="warning">
-                <td class="text-center">没有搜索到关于{{search}}的结果</td>
-            </tr>
-        {% endif %}
-        </tbody>
-    </table>
+            </tbody>
+        </table>
     </div>
 </div>
+<script src="../static/js/bootstrap-paginator.min.js"></script>
+<script src="../static/js/lib/qunit-1.11.0.js"></script>
+{% if page_info['totalpage']  > 1 %}
+<div class="col col-md-offset-6">
+    <ul id='bp-3-element-lg-page'></ul>
+    <script type="text/javascript">
+        $(function(){
+            test("Test bootstrap v3 rendering", function(){
+                options = {
+                    size:"large",
+                    bootstrapMajorVersion:3,
+                    currentPage: {{page_info['currentpage']}},
+                    numberOfPages: 5,
+                    totalPages:{{ page_info['totalpage'] }},
+                    onPageClicked:function(event,originalEvent,type,page){
+                        location.href = "/search?keywords={{page_info['keyword'] }}&&page="+page;
+                    }
+                };
+
+                var element = $('#bp-3-element-lg-page');
+
+                element.bootstrapPaginator(options);
+
+                ok(element.hasClass('pagination-lg'),"Root element should have pagination-lg class");
+
+                var list = element.children();
+
+                for(var i=0;i < list.length;i++)
+                {
+                    var item = $(list[i]);
+
+                    ok(item.is("li"),"Element "+i+" should be li");
+                }
+
+            })
+        });
+
+    </script>
+</div>
+{%endif%}
 {% endblock %}

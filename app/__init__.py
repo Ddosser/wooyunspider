@@ -1,18 +1,17 @@
-#!/usr/bin/evn python
+#!flask/bin/python
 #coding=utf-8
 #####################################################
 #
 #FileName: __init__.py
-#Author: arses
+#Author: Ddosser
 #Email: arseswilliam@gmail.com
 #Date: 2015-09-19 17:50:31
 #
 #####################################################
 
-#import flask
 from flask import Flask
 
-app = Flask(__name__)
-app.config.from_object('config')
-from app import views
 
+app = Flask(__name__)
+app.config.from_object(__name__)
+from app import views

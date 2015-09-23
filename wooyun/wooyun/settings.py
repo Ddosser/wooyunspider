@@ -17,12 +17,47 @@ IMAGES_EXPIRES = 90                 #设置图片过期时间，避免重复下�
 IMAGES_MIN_HEIGHT = 110             #以下两项过滤小图片，可根据实际设置
 IMAGES_MIN_WIDTH = 110
 
+#Custom settings
+SAVE_IMAGES = True                  #设置是否将图片存储到本地，默认为True，即存储图片到本地，如果为False，不存储，同时不更换img src地址
+IMAGESPIPELINE_ENABLE = 1           #如果设置了存储图片，则将ImagesPipeline开启，否则关闭
+IS_FIRSTTIME_CRAWL = False          #是否是第一次爬取
+LOGS_PATH = "./logs/records.log"    #记录每次爬取后的总数，更新爬取参照的变量
+RECORDS_PER_PAGE = 20               #页面上每页记录条数
+
+DB_SERVER = "127.0.0.1"                   #mongodb setting
+DB_PORT = 27017
+DB_NAME = "wooyun"
+DB_OWNER = "wooyun"
+DB_PASSWD = "5fsQgrQSYXg4"
+DB_COLLECTION = "wooyuno_penbug"
+DB_PATH = "~/mongodb/data"
+MONGODB_CMD = "nohup mongod --dbpath " + DB_PATH + "&"
+
+DB_CONN = {
+    "DB_SERVER": DB_SERVER,
+    "DB_PORT": DB_PORT,
+    "DB_NAME": DB_NAME,
+    "DB_OWNER": DB_OWNER,
+    "DB_PASSWD": DB_PASSWD,
+    "DB_COLLECTION": DB_COLLECTION
+}
+
+if not IS_FIRSTTIME_CRAWL:                  #读取上一次记录值
+    f = open(LOGS_PATH, "r")
+    OLD_TOTAL_RECORDS = f.read().replace("\n","").strip()
+    f.close()
+
+if not SAVE_IMAGES:
+    IMAGESPIPELINE_ENABLE = 0
+
+#End setting
 SPIDER_MODULES = ['wooyun.spiders']
 NEWSPIDER_MODULE = 'wooyun.spiders'
+
 ITEM_PIPELINES = {
-    'wooyun.pipelines.WooyunPipeline': 300,
-    'scrapy.pipelines.images.ImagesPipeline': 1,    #开启ImagesPipeline
-    'wooyun.pipelines.WooyunImagesPipeline': 800
+    'wooyun.pipelines.WooyunPipeline': 200,
+    'scrapy.pipelines.images.ImagesPipeline': IMAGESPIPELINE_ENABLE,    #开启ImagesPipeline
+    'wooyun.pipelines.WooyunImagesPipeline': 300
 }
 
 

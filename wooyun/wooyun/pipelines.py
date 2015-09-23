@@ -9,26 +9,27 @@ import re
 import pymongo
 from scrapy import Request
 from scrapy.pipelines.images import ImagesPipeline,DropItem
-from datetime import datetime
+from settings import *
+#from datetime import datetime
 
 
 class WooyunPipeline(object):
     def __init__(self):
-        self.__db_host = "127.0.0.1"                      #数据库主机地址
-        self.__db_port = 27017                            #数据库连接端口（默认为27017)
-        self.__database = "wooyun"                        #数据库
-        self.__client = pymongo.MongoClient(self.__db_host, self.__db_port)#建立数据库连接
-        self.__db = self.__client[self.__database]                        #选择数据库
-        self.__db.authenticate("wooyun","5fsQgrQSYXg4")
-        self.__db_posts = self.__db.posts
+        self.__database = DB_NAME                                            #数据库
+        self.__client = pymongo.MongoClient(DB_SERVER, DB_PORT)              #建立数据库连接
+        self.__db = self.__client[self.__database]                           #选择数据库
+        self.__db.authenticate(DB_OWNER,DB_PASSWD)
+        self.__dbcollection = self.__db[DB_COLLECTION]                       #选择记录集
 
         self.__total_records = 0
-        self.__newtotal_records = 0
 
     def open_spider(self, spider):
+        self.__fp = open(LOGS_PATH, "a")
         pass
     
     def close_spider(self, spider):
+        self.__fp.write(str(self.__total_records) + "\n")                #将记录写入记录日志里
+        self.__fp.close()
         self.__client.close()                                            #当spider关闭则关闭数据库连接
 
     def process_item(self, item, spider):
@@ -37,19 +38,14 @@ class WooyunPipeline(object):
         js = "https://static.wooyun.org/static/js/jquery-1.4.2.min.js"   #需要替换的js位置
         re_js = "../../static/js/jquery-1.4.2.min.js"
 
-        if item['images']:                                               #如果有图片，则把图片的地址换成本地地址,images存放有图片的path,url和checksum值
+        if SAVE_IMAGES and item['images']:          #如果有图片，则把图片的地址换成本地地址,images存放有图片的path,url和checksum值
             for it in item['images']:
-                #p = re.compile(it['url'])
-                #if p.search(item['html']):
                 item['html'] = item['html'].replace(it['url'],"../../static/images/" + it['path'])
-        
         item['html'] = item['html'].replace(css,re_css).replace(js, re_js)#替换css和js
 
-        if self.__total_records == self.__newtotal_records:
-            self.close_spider(spider)
-
-        post = {                                                          #数据表结构，dictionary型
+        wooyun_openbug = {                                                          #数据表结构，dictionary型
             "Title": item['title'],
+            "WooyunID": item['wooyunid'],
             "Vul_Type": item['vul_type'],
             "Author": item['author'],
             'Date': item['date'],
@@ -57,7 +53,10 @@ class WooyunPipeline(object):
             'Images': item['images'],
             'Content': item['html']
         }
-        self.__db_posts.insert(post)                     #执行插入，将数据插入到数据库
+        self.__dbcollection.insert(wooyun_openbug)                #执行插入，将数据插入到数据库
+
+        self.__total_records = item['total_records']
+
         return item
 
 class WooyunImagesPipeline(ImagesPipeline):             #这个ImagePipeline用来下载图片，但下载下来的图片用hash值作为文件名，不是原来的文件名

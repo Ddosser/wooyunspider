@@ -1,85 +1,98 @@
-#!/usr/bin/env python
+#!/flask/bin/python
 #coding:utf-8
 
 import os
+import re
+import math
 import pymongo
+from flask import Flask
 from bson import ObjectId
+from app import app
 
 
-author = "ddosser"
-version = "1.0"
+author = "Ddosser"
+version = "1.2"
 
 class DB_Connection(object):
-    def __init__(self, database):
-        self.__db_host = "127.0.0.1"
-        self.__db_port = 27017
-        self.__database = database
-        self.__db_posts = ""
-        self.__client = None
-        self.__db_init()
+    def __init__(self, db_conn):
+        self.__database = db_conn['DB_NAME']
+        self.__dbclient = pymongo.MongoClient(db_conn['DB_SERVER'], db_conn['DB_PORT'])           #Making a db connection client.
+        self.__db = self.__dbclient[db_conn['DB_NAME']]                                          #Sellecting a database (use database)
+        self.__db.authenticate(db_conn['DB_OWNER'],db_conn['DB_PASSWD'])
+        self.__dbcollection = self.__db[db_conn['DB_COLLECTION']]
+        #self.__dbposts = self.__db.posts
 
-    def __db_init(self):
-        _client = pymongo.MongoClient(self.__db_host, self.__db_port)            #Making a db connection client.
-        _db = _client[self.__database]                    #Sellecting a database (use database)
-        _db.authenticate("wooyun","5fsQgrQSYXg4")
-        self.__db_posts = _db.posts
-        self.__db_collection = _db[self.__database]
-        self.__client = _client
-
-    def db_insert(self, post):
+    def db_insert(self, db_record):
         try:
-            _posts_id = self.__db_posts.insert_one(post)
+            insert_record = self.__dbcollection.insert_one(db_record)
         except:
             pass
 
-    def db_remove(self, post = None):
-        if post:
-            res = self.__db_posts.remove(post)
+    def db_remove(self, record = None):
+        if recode:
+            res = self.__dbcollection.remove(record)
         else:
-            res = self.__db_posts.remove()
+            res = self.__dbcollection.remove()
         if res["n"] == 1:
-            print "[*]remove {} from {} ok!".format(post, self.__database)
+            print "[*]remove {} from {} ok!".format(recode, self.__database)
         else:
-            print "[*]remove {} from {} Failed!".format(post, self.__database)
+            print "[*]remove {} from {} Failed!".format(recode, self.__database)
 
-    def db_query(self, post = None):
-        if post:
-            search = {'Content':{'$regex':post} }
-            res = self.__db_posts.find(search)
+    def db_query(self, fieldname = None, keywords = None , page = 1):
+        total_page = 0
+        total_rows = 0
+        page = page
+        keyword_regex = {}
+        k = keywords.split(" ")
+        keyword_list = [kw for kw in k if kw!=""]
+        if not len(keyword_list):
+            page_info = None
+            return page_info
+
+        reg_pattern = re.compile('|'.join(keyword_list), re.IGNORECASE)
+        keyword_regex[fieldname] = reg_pattern
+
+        total_rows = self.__dbcollection.find(keyword_regex).count()
+        total_page = int(math.ceil(total_rows / (app.config['RECORDS_PER_PAGE']*1.0)))
+        page_info = {
+            "keyword":keywords,
+            "totalpage":total_page,
+            "records":total_rows,
+            "currentpage":page,
+            'rows':[]
+        }
+
+        if total_page >0 and page <= total_page:
+            row_start = (page - 1) * app.config['RECORDS_PER_PAGE']
+            cursors = self.__dbcollection.find(keyword_regex, {'WooyunID':1, 'Title':1, 'Open Time':1, 'Date':1, 'Author':1, 'Vul_Type':1})\
+                .sort('Open Time',pymongo.DESCENDING).skip(row_start).limit(app.config['RECORDS_PER_PAGE'])
+            for c in cursors:
+                page_info['rows'].append(c)
+        return page_info
+
+    def db_queryone(self, fieldname = None, keywords = None):
+        keyword_regex = {}
+        k = keywords.split(" ")
+        keyword_list = [kw for kw in k if kw!=""]
+        reg_pattern = re.compile('|'.join(keyword_list), re.IGNORECASE)
+        keyword_regex[fieldname] = reg_pattern
+        res = self.__dbcollection.find_one(keyword_regex, {'_id':1, 'WooyunID':1, 'Title':1, 'Open Time':1, 'Date':1, 'Author':1, 'Vul_Type':1, 'Content':1})
         return res
 
-    def db_queryone(self, post = None):
-        if post:
-            search = {'_id':ObjectId(post)}
-            res = self.__db_posts.find_one(search)
-            #u'_id': ObjectId('55fe888a39c22130005e0c09')
-        return res
-            #res = self._db_posts.find(post)
     def db_close(self):
         self.__client.close()
 
-def save_html(data, i):
-    f = open("/home/arses/Python/wooyun/test/index" + str(i) + ".html", "a")
-    if data:
-        f.write(data)
-    f.close()
-
 def main():
-    db_name = "wooyun"
-    conn = DB_Connection(db_name)
-    flag = 1
-    q = "html"
-    i = 0
-#    for data in conn.db_query(q):
-#        i += 1
-#        print data[u'Content'].encode('utf-8')
-        #save_html(data[u'Content'].encode('utf-8'), i)
-    #conn.db_remove()
-#    print i
-    print conn.db_queryone('55fe888a39c22130005e0c09')
+    try:
+        db_conn = app.config['DB_CONN']
+    except:
+        db_conn = DB_CONN
+    conn = DB_Connection(db_conn)
 
-    conn.db_close()
-    
+    data = conn.db_query("sql")
+    for res in data['rows']:
+        print res['WooyunID']
+
 if __name__ == '__main__':
     main()
 
