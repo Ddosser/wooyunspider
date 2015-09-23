@@ -34,8 +34,8 @@ class WooyunSpider(Spider):
         total_pages = int(sel.xpath("//p[@class='page']/text()").re('\d+')[1])
         self.__total_records = int(sel.xpath("//p[@class='page']/text()").re('\d+')[0])
 
-        if IS_FIRSTTIME_CRAWL:                               #第一次爬取
-            for np in range(1 , total_pages + 1):         #构造下页地址
+        if IS_FIRSTTIME_CRAWL:                           #第一次爬取
+            for np in xrange(1, total_pages + 1):         #构造下页地址
                 npage = r"/bugs/new_public/page/" + str(np)
                 url = response.urljoin(npage)
                 yield scrapy.Request(url, self.get_urls) 
@@ -49,9 +49,9 @@ class WooyunSpider(Spider):
             elif update_records >=0 and update_records <= RECORDS_PER_PAGE:
                 update_pages = 0
 
-            print "\033[1;31m" + str(update_records) + "\033[0m"
+            #print "\033[1;31m" + str(update_records) + "\033[0m"
 
-            for np in range(1, update_pages + 1):         #构造下页地址
+            for np in xrange(1, update_pages+1):         #构造下页地址
                 npage = r"/bugs/new_public/page/" + str(np)
                 url = response.urljoin(npage)
                 if np == update_pages and (update_records%RECORDS_PER_PAGE) > 0:
@@ -78,7 +78,11 @@ class WooyunSpider(Spider):
         item['date'] = sel.xpath("//h3[@class='wybug_date']/text()").re("[\d+]{4}-[\d+]{2}-[\d+]{2}")[0]
         item['open_time'] = sel.xpath("//h3[@class='wybug_open_date']/text()").re("[\d+]{4}-[\d+]{2}-[\d+]{2} [\d+]{2}:[\d+]{2}")[0]
         item['author'] = sel.xpath("//h3[@class='wybug_author']/a/text()").extract()[0].encode('utf-8')
-        item['html'] = sel.xpath('/*').extract()[0].encode('utf-8')
-        item['image_urls'] = sel.xpath("//img[contains(@src, 'http://static.wooyun.org/wooyun/upload/')]/@src").extract()
+        #item['html'] = sel.xpath('/*').extract()[0].encode('utf-8')
+        item['html'] = ""
         item['total_records'] = self.__total_records
+        if SAVE_IMAGES:
+            item['image_urls'] = sel.xpath("//img[contains(@src, 'http://static.wooyun.org/wooyun/upload/')]/@src").extract()
+        else:
+            item['image_urls'] = []
         return item

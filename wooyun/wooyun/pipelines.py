@@ -45,6 +45,8 @@ class WooyunPipeline(object):
         if SAVE_IMAGES and item['images']:          #如果有图片，则把图片的地址换成本地地址,images存放有图片的path,url和checksum值
             for it in item['images']:
                 item['html'] = item['html'].replace(it['url'],"../../static/images/" + it['path'])
+        else:
+            item['images'] = []
         item['html'] = item['html'].replace(css,re_css).replace(js, re_js)#替换css和js
 
         wooyun_openbug = {                                                          #数据表结构，dictionary型

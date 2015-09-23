@@ -48,3 +48,443 @@
 2015-09-23T15:17:07.683+0800 [clientcursormon] mem (MB) res:66 virt:706
 2015-09-23T15:17:07.683+0800 [clientcursormon]  mapped (incl journal view):480
 2015-09-23T15:17:07.683+0800 [clientcursormon]  connections:2
+2015-09-23T15:21:59.810+0800 [initandlisten] MongoDB starting : pid=4397 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T15:21:59.810+0800 [initandlisten] db version v2.6.3
+2015-09-23T15:21:59.810+0800 [initandlisten] git version: nogitversion
+2015-09-23T15:21:59.810+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T15:21:59.810+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T15:21:59.810+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T15:21:59.810+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T15:21:59.810+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T15:21:59.810+0800 [initandlisten] dbexit: 
+2015-09-23T15:21:59.810+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T15:21:59.810+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T15:21:59.810+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T15:21:59.810+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T15:21:59.810+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T15:21:59.810+0800 [initandlisten] shutdown: final commit...
+2015-09-23T15:21:59.810+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T15:21:59.810+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T15:21:59.810+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T15:22:00.906+0800 [initandlisten] connection accepted from 127.0.0.1:48772 #5 (3 connections now open)
+2015-09-23T15:22:00.907+0800 [initandlisten] connection accepted from 127.0.0.1:48773 #6 (4 connections now open)
+2015-09-23T15:22:00.908+0800 [conn6]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T15:23:06.989+0800 [clientcursormon] mem (MB) res:66 virt:709
+2015-09-23T15:23:06.989+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T15:23:06.989+0800 [clientcursormon]  connections:4
+2015-09-23T15:28:07.004+0800 [clientcursormon] mem (MB) res:67 virt:709
+2015-09-23T15:28:07.005+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T15:28:07.005+0800 [clientcursormon]  connections:4
+2015-09-23T15:30:27.681+0800 [initandlisten] MongoDB starting : pid=4781 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T15:30:27.681+0800 [initandlisten] db version v2.6.3
+2015-09-23T15:30:27.681+0800 [initandlisten] git version: nogitversion
+2015-09-23T15:30:27.681+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T15:30:27.681+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T15:30:27.681+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T15:30:27.681+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T15:30:27.681+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T15:30:27.681+0800 [initandlisten] dbexit: 
+2015-09-23T15:30:27.681+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T15:30:27.681+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T15:30:27.681+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T15:30:27.682+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T15:30:27.682+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T15:30:27.682+0800 [initandlisten] shutdown: final commit...
+2015-09-23T15:30:27.682+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T15:30:27.682+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T15:30:27.682+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T15:30:28.790+0800 [initandlisten] connection accepted from 127.0.0.1:48934 #7 (5 connections now open)
+2015-09-23T15:30:28.791+0800 [initandlisten] connection accepted from 127.0.0.1:48935 #8 (6 connections now open)
+2015-09-23T15:30:28.792+0800 [conn8]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T15:33:07.020+0800 [clientcursormon] mem (MB) res:68 virt:711
+2015-09-23T15:33:07.020+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T15:33:07.020+0800 [clientcursormon]  connections:6
+2015-09-23T15:38:07.036+0800 [clientcursormon] mem (MB) res:73 virt:711
+2015-09-23T15:38:07.036+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T15:38:07.036+0800 [clientcursormon]  connections:6
+2015-09-23T15:43:07.053+0800 [clientcursormon] mem (MB) res:79 virt:711
+2015-09-23T15:43:07.053+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T15:43:07.053+0800 [clientcursormon]  connections:6
+2015-09-23T15:46:00.256+0800 [conn7] end connection 127.0.0.1:48934 (5 connections now open)
+2015-09-23T15:46:00.256+0800 [conn8] end connection 127.0.0.1:48935 (5 connections now open)
+2015-09-23T15:47:03.044+0800 [initandlisten] connection accepted from 127.0.0.1:49076 #9 (5 connections now open)
+2015-09-23T15:47:03.047+0800 [initandlisten] connection accepted from 127.0.0.1:49077 #10 (6 connections now open)
+2015-09-23T15:47:03.048+0800 [conn10]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T15:47:03.117+0800 [conn9] end connection 127.0.0.1:49076 (5 connections now open)
+2015-09-23T15:47:03.117+0800 [conn10] end connection 127.0.0.1:49077 (5 connections now open)
+2015-09-23T15:47:07.066+0800 [clientcursormon] mem (MB) res:108 virt:711
+2015-09-23T15:47:07.066+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T15:47:07.066+0800 [clientcursormon]  connections:4
+2015-09-23T15:50:30.631+0800 [initandlisten] connection accepted from 127.0.0.1:49091 #11 (5 connections now open)
+2015-09-23T15:50:30.646+0800 [initandlisten] connection accepted from 127.0.0.1:49092 #12 (6 connections now open)
+2015-09-23T15:50:30.651+0800 [conn12]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T15:50:30.658+0800 [conn11] end connection 127.0.0.1:49091 (5 connections now open)
+2015-09-23T15:50:30.659+0800 [conn12] end connection 127.0.0.1:49092 (4 connections now open)
+2015-09-23T15:50:31.877+0800 [initandlisten] connection accepted from 127.0.0.1:49120 #13 (5 connections now open)
+2015-09-23T15:50:31.878+0800 [initandlisten] connection accepted from 127.0.0.1:49121 #14 (6 connections now open)
+2015-09-23T15:50:31.879+0800 [conn14]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T15:50:31.881+0800 [conn13] end connection 127.0.0.1:49120 (5 connections now open)
+2015-09-23T15:50:31.881+0800 [conn14] end connection 127.0.0.1:49121 (5 connections now open)
+2015-09-23T15:52:07.563+0800 [clientcursormon] mem (MB) res:108 virt:711
+2015-09-23T15:52:07.563+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T15:52:07.563+0800 [clientcursormon]  connections:4
+2015-09-23T15:57:07.579+0800 [clientcursormon] mem (MB) res:108 virt:711
+2015-09-23T15:57:07.579+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T15:57:07.579+0800 [clientcursormon]  connections:4
+2015-09-23T16:02:07.596+0800 [clientcursormon] mem (MB) res:108 virt:711
+2015-09-23T16:02:07.596+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T16:02:07.597+0800 [clientcursormon]  connections:4
+2015-09-23T16:45:11.409+0800 [initandlisten] MongoDB starting : pid=4347 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T16:45:11.410+0800 [initandlisten] db version v2.6.3
+2015-09-23T16:45:11.410+0800 [initandlisten] git version: nogitversion
+2015-09-23T16:45:11.410+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T16:45:11.410+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T16:45:11.410+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T16:45:11.410+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T16:45:11.410+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T16:45:11.410+0800 [initandlisten] dbexit: 
+2015-09-23T16:45:11.410+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T16:45:11.410+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T16:45:11.410+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T16:45:11.410+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T16:45:11.410+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T16:45:11.410+0800 [initandlisten] shutdown: final commit...
+2015-09-23T16:45:11.410+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T16:45:11.410+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T16:45:11.410+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T17:07:42.905+0800 [initandlisten] MongoDB starting : pid=3811 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T17:07:42.905+0800 [initandlisten] db version v2.6.3
+2015-09-23T17:07:42.905+0800 [initandlisten] git version: nogitversion
+2015-09-23T17:07:42.905+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T17:07:42.905+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T17:07:42.905+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T17:07:42.905+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T17:07:42.908+0800 [initandlisten] journal dir=/home/arses/mongodb/data/journal
+2015-09-23T17:07:42.908+0800 [initandlisten] recover begin
+2015-09-23T17:07:42.908+0800 [initandlisten] recover lsn: 1422956
+2015-09-23T17:07:42.908+0800 [initandlisten] recover /home/arses/mongodb/data/journal/j._0
+2015-09-23T17:07:42.912+0800 [initandlisten] recover skipping application of section seq:0 < lsn:1422956
+2015-09-23T17:07:42.912+0800 [initandlisten] recover skipping application of section seq:1126319 < lsn:1422956
+2015-09-23T17:07:42.912+0800 [initandlisten] recover skipping application of section seq:1244921 < lsn:1422956
+2015-09-23T17:07:42.913+0800 [initandlisten] recover skipping application of section seq:1304256 < lsn:1422956
+2015-09-23T17:07:42.915+0800 [initandlisten] recover skipping application of section seq:1363596 < lsn:1422956
+2015-09-23T17:07:42.932+0800 [initandlisten] recover cleaning up
+2015-09-23T17:07:42.932+0800 [initandlisten] removeJournalFiles
+2015-09-23T17:07:42.934+0800 [initandlisten] recover done
+2015-09-23T17:07:43.270+0800 [initandlisten] preallocateIsFaster=true 3.84
+2015-09-23T17:07:43.528+0800 [initandlisten] waiting for connections on port 27017
+2015-09-23T17:07:44.121+0800 [initandlisten] connection accepted from 127.0.0.1:39627 #1 (1 connection now open)
+2015-09-23T17:07:44.122+0800 [initandlisten] connection accepted from 127.0.0.1:39628 #2 (2 connections now open)
+2015-09-23T17:07:44.124+0800 [conn2]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T17:08:43.529+0800 [clientcursormon] mem (MB) res:66 virt:707
+2015-09-23T17:08:43.529+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T17:08:43.529+0800 [clientcursormon]  connections:2
+2015-09-23T17:09:39.511+0800 [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2015-09-23T17:09:39.511+0800 [signalProcessingThread] now exiting
+2015-09-23T17:09:39.511+0800 [signalProcessingThread] dbexit: 
+2015-09-23T17:09:39.511+0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2015-09-23T17:09:39.511+0800 [signalProcessingThread] closing listening socket: 9
+2015-09-23T17:09:39.511+0800 [signalProcessingThread] closing listening socket: 13
+2015-09-23T17:09:39.511+0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-09-23T17:09:39.512+0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2015-09-23T17:09:39.512+0800 [signalProcessingThread] shutdown: going to close sockets...
+2015-09-23T17:09:39.512+0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-09-23T17:09:39.512+0800 [signalProcessingThread] shutdown: lock for final commit...
+2015-09-23T17:09:39.512+0800 [signalProcessingThread] shutdown: final commit...
+2015-09-23T17:09:39.512+0800 [conn1] end connection 127.0.0.1:39627 (1 connection now open)
+2015-09-23T17:09:39.512+0800 [conn2] end connection 127.0.0.1:39628 (1 connection now open)
+2015-09-23T17:09:39.517+0800 [signalProcessingThread] shutdown: closing all files...
+2015-09-23T17:09:39.518+0800 [signalProcessingThread] closeAllFiles() finished
+2015-09-23T17:09:39.518+0800 [signalProcessingThread] journalCleanup...
+2015-09-23T17:09:39.518+0800 [signalProcessingThread] removeJournalFiles
+2015-09-23T17:09:39.523+0800 [signalProcessingThread] shutdown: removing fs lock...
+2015-09-23T17:09:39.523+0800 [signalProcessingThread] dbexit: really exiting now
+2015-09-23T17:11:22.364+0800 [initandlisten] MongoDB starting : pid=4147 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T17:11:22.364+0800 [initandlisten] db version v2.6.3
+2015-09-23T17:11:22.364+0800 [initandlisten] git version: nogitversion
+2015-09-23T17:11:22.364+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T17:11:22.364+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T17:11:22.364+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T17:11:22.364+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T17:11:22.365+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T17:11:22.365+0800 [initandlisten] dbexit: 
+2015-09-23T17:11:22.365+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T17:11:22.365+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T17:11:22.365+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T17:11:22.365+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T17:11:22.365+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T17:11:22.365+0800 [initandlisten] shutdown: final commit...
+2015-09-23T17:11:22.365+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T17:11:22.365+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T17:11:22.365+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T22:47:02.694+0800 [initandlisten] MongoDB starting : pid=5232 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T22:47:02.695+0800 [initandlisten] db version v2.6.3
+2015-09-23T22:47:02.695+0800 [initandlisten] git version: nogitversion
+2015-09-23T22:47:02.695+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T22:47:02.695+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T22:47:02.695+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T22:47:02.695+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T22:47:02.698+0800 [initandlisten] journal dir=/home/arses/mongodb/data/journal
+2015-09-23T22:47:02.698+0800 [initandlisten] recover : no journal files present, no recovery needed
+2015-09-23T22:47:02.925+0800 [initandlisten] waiting for connections on port 27017
+2015-09-23T22:47:03.911+0800 [initandlisten] connection accepted from 127.0.0.1:54034 #1 (1 connection now open)
+2015-09-23T22:47:03.912+0800 [initandlisten] connection accepted from 127.0.0.1:54035 #2 (2 connections now open)
+2015-09-23T22:47:03.914+0800 [conn2]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] now exiting
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] dbexit: 
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] shutdown: going to close listening sockets...
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] closing listening socket: 9
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] closing listening socket: 13
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] shutdown: going to flush diaglog...
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] shutdown: going to close sockets...
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] shutdown: lock for final commit...
+2015-09-23T22:47:45.078+0800 [signalProcessingThread] shutdown: final commit...
+2015-09-23T22:47:45.078+0800 [conn1] end connection 127.0.0.1:54034 (1 connection now open)
+2015-09-23T22:47:45.078+0800 [conn2] end connection 127.0.0.1:54035 (0 connections now open)
+2015-09-23T22:47:45.084+0800 [signalProcessingThread] shutdown: closing all files...
+2015-09-23T22:47:45.085+0800 [signalProcessingThread] closeAllFiles() finished
+2015-09-23T22:47:45.085+0800 [signalProcessingThread] journalCleanup...
+2015-09-23T22:47:45.085+0800 [signalProcessingThread] removeJournalFiles
+2015-09-23T22:47:45.089+0800 [signalProcessingThread] shutdown: removing fs lock...
+2015-09-23T22:47:45.089+0800 [signalProcessingThread] dbexit: really exiting now
+2015-09-23T22:48:37.273+0800 [initandlisten] MongoDB starting : pid=5329 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T22:48:37.273+0800 [initandlisten] db version v2.6.3
+2015-09-23T22:48:37.273+0800 [initandlisten] git version: nogitversion
+2015-09-23T22:48:37.273+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T22:48:37.273+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T22:48:37.273+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T22:48:37.273+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T22:48:37.276+0800 [initandlisten] journal dir=/home/arses/mongodb/data/journal
+2015-09-23T22:48:37.276+0800 [initandlisten] recover : no journal files present, no recovery needed
+2015-09-23T22:48:37.516+0800 [initandlisten] waiting for connections on port 27017
+2015-09-23T22:48:38.357+0800 [initandlisten] connection accepted from 127.0.0.1:54105 #1 (1 connection now open)
+2015-09-23T22:48:38.358+0800 [initandlisten] connection accepted from 127.0.0.1:54106 #2 (2 connections now open)
+2015-09-23T22:48:38.360+0800 [conn2]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T22:48:40.542+0800 [conn1] end connection 127.0.0.1:54105 (1 connection now open)
+2015-09-23T22:48:40.543+0800 [conn2] end connection 127.0.0.1:54106 (0 connections now open)
+2015-09-23T22:48:58.331+0800 [initandlisten] MongoDB starting : pid=5371 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T22:48:58.331+0800 [initandlisten] db version v2.6.3
+2015-09-23T22:48:58.331+0800 [initandlisten] git version: nogitversion
+2015-09-23T22:48:58.331+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T22:48:58.331+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T22:48:58.331+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T22:48:58.331+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T22:48:58.332+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T22:48:58.332+0800 [initandlisten] dbexit: 
+2015-09-23T22:48:58.332+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T22:48:58.332+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T22:48:58.332+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T22:48:58.332+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T22:48:58.332+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T22:48:58.332+0800 [initandlisten] shutdown: final commit...
+2015-09-23T22:48:58.332+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T22:48:58.332+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T22:48:58.332+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T22:48:59.410+0800 [initandlisten] connection accepted from 127.0.0.1:54111 #3 (1 connection now open)
+2015-09-23T22:48:59.411+0800 [initandlisten] connection accepted from 127.0.0.1:54112 #4 (2 connections now open)
+2015-09-23T22:48:59.412+0800 [conn4]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T22:49:37.518+0800 [clientcursormon] mem (MB) res:67 virt:706
+2015-09-23T22:49:37.518+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T22:49:37.518+0800 [clientcursormon]  connections:2
+2015-09-23T22:52:04.903+0800 [conn3] end connection 127.0.0.1:54111 (1 connection now open)
+2015-09-23T22:52:04.903+0800 [conn4] end connection 127.0.0.1:54112 (0 connections now open)
+2015-09-23T22:54:37.532+0800 [clientcursormon] mem (MB) res:70 virt:707
+2015-09-23T22:54:37.532+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T22:54:37.532+0800 [clientcursormon]  connections:0
+2015-09-23T22:59:37.546+0800 [clientcursormon] mem (MB) res:70 virt:707
+2015-09-23T22:59:37.547+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T22:59:37.547+0800 [clientcursormon]  connections:0
+2015-09-23T22:59:48.899+0800 [initandlisten] MongoDB starting : pid=5594 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T22:59:48.900+0800 [initandlisten] db version v2.6.3
+2015-09-23T22:59:48.900+0800 [initandlisten] git version: nogitversion
+2015-09-23T22:59:48.900+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T22:59:48.900+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T22:59:48.900+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T22:59:48.900+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T22:59:48.900+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T22:59:48.900+0800 [initandlisten] dbexit: 
+2015-09-23T22:59:48.900+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T22:59:48.900+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T22:59:48.900+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T22:59:48.900+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T22:59:48.900+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T22:59:48.900+0800 [initandlisten] shutdown: final commit...
+2015-09-23T22:59:48.900+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T22:59:48.900+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T22:59:48.900+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T22:59:49.986+0800 [initandlisten] connection accepted from 127.0.0.1:54199 #5 (1 connection now open)
+2015-09-23T22:59:49.987+0800 [initandlisten] connection accepted from 127.0.0.1:54200 #6 (2 connections now open)
+2015-09-23T22:59:49.988+0800 [conn6]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T22:59:51.720+0800 [conn5] end connection 127.0.0.1:54199 (1 connection now open)
+2015-09-23T22:59:51.720+0800 [conn6] end connection 127.0.0.1:54200 (1 connection now open)
+2015-09-23T23:00:05.294+0800 [initandlisten] MongoDB starting : pid=5630 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T23:00:05.294+0800 [initandlisten] db version v2.6.3
+2015-09-23T23:00:05.294+0800 [initandlisten] git version: nogitversion
+2015-09-23T23:00:05.294+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T23:00:05.294+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T23:00:05.294+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T23:00:05.294+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T23:00:05.294+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T23:00:05.294+0800 [initandlisten] dbexit: 
+2015-09-23T23:00:05.294+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T23:00:05.294+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T23:00:05.294+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T23:00:05.294+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T23:00:05.294+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T23:00:05.294+0800 [initandlisten] shutdown: final commit...
+2015-09-23T23:00:05.294+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T23:00:05.294+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T23:00:05.294+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T23:00:06.385+0800 [initandlisten] connection accepted from 127.0.0.1:54203 #7 (1 connection now open)
+2015-09-23T23:00:06.387+0800 [initandlisten] connection accepted from 127.0.0.1:54204 #8 (2 connections now open)
+2015-09-23T23:00:06.388+0800 [conn8]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T23:04:37.560+0800 [clientcursormon] mem (MB) res:78 virt:707
+2015-09-23T23:04:37.560+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T23:04:37.560+0800 [clientcursormon]  connections:2
+2015-09-23T23:09:37.578+0800 [clientcursormon] mem (MB) res:85 virt:708
+2015-09-23T23:09:37.578+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T23:09:37.578+0800 [clientcursormon]  connections:2
+2015-09-23T23:10:01.912+0800 [conn8] end connection 127.0.0.1:54204 (1 connection now open)
+2015-09-23T23:10:01.912+0800 [conn7] end connection 127.0.0.1:54203 (1 connection now open)
+2015-09-23T23:14:37.593+0800 [clientcursormon] mem (MB) res:86 virt:708
+2015-09-23T23:14:37.593+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T23:14:37.593+0800 [clientcursormon]  connections:0
+2015-09-23T23:16:59.638+0800 [initandlisten] MongoDB starting : pid=6186 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T23:16:59.638+0800 [initandlisten] db version v2.6.3
+2015-09-23T23:16:59.638+0800 [initandlisten] git version: nogitversion
+2015-09-23T23:16:59.638+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T23:16:59.638+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T23:16:59.638+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T23:16:59.638+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T23:16:59.638+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T23:16:59.638+0800 [initandlisten] dbexit: 
+2015-09-23T23:16:59.638+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T23:16:59.638+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T23:16:59.638+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T23:16:59.638+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T23:16:59.638+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T23:16:59.638+0800 [initandlisten] shutdown: final commit...
+2015-09-23T23:16:59.638+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T23:16:59.638+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T23:16:59.638+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T23:17:00.752+0800 [initandlisten] connection accepted from 127.0.0.1:54262 #9 (1 connection now open)
+2015-09-23T23:17:00.754+0800 [initandlisten] connection accepted from 127.0.0.1:54263 #10 (2 connections now open)
+2015-09-23T23:17:00.755+0800 [conn10]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T23:17:03.178+0800 [conn9] end connection 127.0.0.1:54262 (1 connection now open)
+2015-09-23T23:17:03.178+0800 [conn10] end connection 127.0.0.1:54263 (1 connection now open)
+2015-09-23T23:17:41.189+0800 [initandlisten] MongoDB starting : pid=6271 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T23:17:41.189+0800 [initandlisten] db version v2.6.3
+2015-09-23T23:17:41.189+0800 [initandlisten] git version: nogitversion
+2015-09-23T23:17:41.189+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T23:17:41.189+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T23:17:41.189+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T23:17:41.189+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T23:17:41.189+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T23:17:41.189+0800 [initandlisten] dbexit: 
+2015-09-23T23:17:41.189+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T23:17:41.189+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T23:17:41.189+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T23:17:41.189+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T23:17:41.189+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T23:17:41.189+0800 [initandlisten] shutdown: final commit...
+2015-09-23T23:17:41.189+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T23:17:41.189+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T23:17:41.189+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T23:17:42.274+0800 [initandlisten] connection accepted from 127.0.0.1:54276 #11 (1 connection now open)
+2015-09-23T23:17:42.275+0800 [initandlisten] connection accepted from 127.0.0.1:54277 #12 (2 connections now open)
+2015-09-23T23:17:42.276+0800 [conn12]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T23:19:37.607+0800 [clientcursormon] mem (MB) res:86 virt:708
+2015-09-23T23:19:37.607+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T23:19:37.607+0800 [clientcursormon]  connections:2
+2015-09-23T23:24:37.623+0800 [clientcursormon] mem (MB) res:85 virt:708
+2015-09-23T23:24:37.623+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T23:24:37.623+0800 [clientcursormon]  connections:2
+2015-09-23T23:29:37.637+0800 [clientcursormon] mem (MB) res:83 virt:708
+2015-09-23T23:29:37.638+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T23:29:37.638+0800 [clientcursormon]  connections:2
+2015-09-23T23:34:37.654+0800 [clientcursormon] mem (MB) res:87 virt:708
+2015-09-23T23:34:37.655+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T23:34:37.655+0800 [clientcursormon]  connections:2
+2015-09-23T23:35:24.051+0800 [conn11] end connection 127.0.0.1:54276 (1 connection now open)
+2015-09-23T23:35:24.051+0800 [conn12] end connection 127.0.0.1:54277 (1 connection now open)
+2015-09-23T23:35:42.845+0800 [initandlisten] MongoDB starting : pid=6787 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T23:35:42.845+0800 [initandlisten] db version v2.6.3
+2015-09-23T23:35:42.845+0800 [initandlisten] git version: nogitversion
+2015-09-23T23:35:42.845+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T23:35:42.845+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T23:35:42.845+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T23:35:42.845+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T23:35:42.845+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T23:35:42.845+0800 [initandlisten] dbexit: 
+2015-09-23T23:35:42.845+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T23:35:42.845+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T23:35:42.845+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T23:35:42.845+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T23:35:42.845+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T23:35:42.845+0800 [initandlisten] shutdown: final commit...
+2015-09-23T23:35:42.845+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T23:35:42.845+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T23:35:42.846+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T23:35:43.947+0800 [initandlisten] connection accepted from 127.0.0.1:54370 #13 (1 connection now open)
+2015-09-23T23:35:43.949+0800 [initandlisten] connection accepted from 127.0.0.1:54371 #14 (2 connections now open)
+2015-09-23T23:35:43.949+0800 [conn14]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T23:36:50.229+0800 [conn13] end connection 127.0.0.1:54370 (1 connection now open)
+2015-09-23T23:36:50.229+0800 [conn14] end connection 127.0.0.1:54371 (1 connection now open)
+2015-09-23T23:37:57.797+0800 [initandlisten] MongoDB starting : pid=6850 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-23T23:37:57.797+0800 [initandlisten] db version v2.6.3
+2015-09-23T23:37:57.797+0800 [initandlisten] git version: nogitversion
+2015-09-23T23:37:57.797+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-23T23:37:57.797+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-23T23:37:57.797+0800 [initandlisten] allocator: tcmalloc
+2015-09-23T23:37:57.797+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-23T23:37:57.797+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-23T23:37:57.797+0800 [initandlisten] dbexit: 
+2015-09-23T23:37:57.797+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-23T23:37:57.797+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-23T23:37:57.797+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-23T23:37:57.797+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-23T23:37:57.797+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-23T23:37:57.797+0800 [initandlisten] shutdown: final commit...
+2015-09-23T23:37:57.797+0800 [initandlisten] shutdown: closing all files...
+2015-09-23T23:37:57.797+0800 [initandlisten] closeAllFiles() finished
+2015-09-23T23:37:57.797+0800 [initandlisten] dbexit: really exiting now
+2015-09-23T23:37:58.897+0800 [initandlisten] connection accepted from 127.0.0.1:54382 #15 (1 connection now open)
+2015-09-23T23:37:58.899+0800 [initandlisten] connection accepted from 127.0.0.1:54383 #16 (2 connections now open)
+2015-09-23T23:37:58.900+0800 [conn16]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-23T23:39:37.671+0800 [clientcursormon] mem (MB) res:88 virt:708
+2015-09-23T23:39:37.671+0800 [clientcursormon]  mapped (incl journal view):480
+2015-09-23T23:39:37.671+0800 [clientcursormon]  connections:2
+2015-09-23T23:44:37.403+0800 [FileAllocator] allocating new datafile /home/arses/mongodb/data/wooyun.1, filling with zeroes...
+2015-09-23T23:44:37.403+0800 [FileAllocator] creating directory /home/arses/mongodb/data/_tmp
+2015-09-23T23:44:37.415+0800 [FileAllocator] done allocating datafile /home/arses/mongodb/data/wooyun.1, size: 128MB,  took 0.007 secs
+2015-09-23T23:44:37.687+0800 [clientcursormon] mem (MB) res:86 virt:964
+2015-09-23T23:44:37.688+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-23T23:44:37.688+0800 [clientcursormon]  connections:2
+2015-09-23T23:49:37.705+0800 [clientcursormon] mem (MB) res:85 virt:964
+2015-09-23T23:49:37.705+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-23T23:49:37.705+0800 [clientcursormon]  connections:2
+2015-09-23T23:54:37.723+0800 [clientcursormon] mem (MB) res:86 virt:964
+2015-09-23T23:54:37.723+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-23T23:54:37.723+0800 [clientcursormon]  connections:2
+2015-09-23T23:59:37.740+0800 [clientcursormon] mem (MB) res:85 virt:964
+2015-09-23T23:59:37.740+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-23T23:59:37.740+0800 [clientcursormon]  connections:2
+2015-09-24T00:04:37.196+0800 [conn16] end connection 127.0.0.1:54383 (1 connection now open)
+2015-09-24T00:04:37.196+0800 [conn15] end connection 127.0.0.1:54382 (1 connection now open)
+2015-09-24T00:04:37.756+0800 [clientcursormon] mem (MB) res:85 virt:964
+2015-09-24T00:04:37.756+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:04:37.756+0800 [clientcursormon]  connections:0
+2015-09-24T00:09:37.772+0800 [clientcursormon] mem (MB) res:85 virt:964
+2015-09-24T00:09:37.772+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:09:37.772+0800 [clientcursormon]  connections:0
+2015-09-24T00:14:37.789+0800 [clientcursormon] mem (MB) res:85 virt:964
+2015-09-24T00:14:37.789+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:14:37.790+0800 [clientcursormon]  connections:0
+2015-09-24T00:15:39.770+0800 [initandlisten] connection accepted from 127.0.0.1:54788 #17 (1 connection now open)
+2015-09-24T00:15:39.775+0800 [initandlisten] connection accepted from 127.0.0.1:54789 #18 (2 connections now open)
+2015-09-24T00:15:39.776+0800 [conn18]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:15:39.886+0800 [conn17] end connection 127.0.0.1:54788 (1 connection now open)
+2015-09-24T00:15:39.886+0800 [conn18] end connection 127.0.0.1:54789 (1 connection now open)

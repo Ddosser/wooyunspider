@@ -57,6 +57,7 @@
                     </ul>
                 </li><!--UsefulTools -->
             </ul>
+            {% if not index %}
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <form class="navbar-form form-search" action="/search" method="post" role="search">
@@ -65,6 +66,7 @@
                     </form>
                 </li>
             </ul>
+            {%endif%}
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="/index">Home</a></li>
                 <li><a href="#about">About</a></li>

@@ -28,7 +28,7 @@ version = "v1.2"
 @app.route('/index', methods = ["GET"])
 def index():
     return render_template('index.html',
-    title = "Welcome to Hacker's World",)
+    title = "Welcome to Hacker's World", index = True)
 
 @app.route('/search', methods = ["GET", "POST"])
 def search():
