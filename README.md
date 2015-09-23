@@ -17,6 +17,18 @@
     5.前端采用bootstrap v3版，下载地址：
     http://v3.bootcss.com/getting-started/#download
     
+三、使用方法
+
+    1.设置爬虫选项settengs.py，如果需要全部爬，将IS_FIRST_CRAWL 设置为True，否则设置为False，即只爬更新部分。
+    2.设置否是将图片保存到本地选项 SAVE_IMAGES
+    3.设置数据库数据库用户名、密码、数据库名和记录集等。
+    4.cd到爬虫项目目录，开始爬取
+    scrapy crawl wooyunspider
+    5.配置app/config数据库信息，比如数据库服务器地址，端口，数据库名和数据库路径等。
+    6.开启服务（默认端口为5000）
+    ./run.py
+    7.用户http://server:5000进行访问。
+    
 三、目录结构
 
     wooyunspider
