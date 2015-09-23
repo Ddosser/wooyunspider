@@ -10,7 +10,7 @@ import pymongo
 from scrapy import Request
 from scrapy.pipelines.images import ImagesPipeline,DropItem
 from settings import *
-#from datetime import datetime
+import time
 
 
 class WooyunPipeline(object):
@@ -28,7 +28,11 @@ class WooyunPipeline(object):
         pass
     
     def close_spider(self, spider):
-        self.__fp.write(str(self.__total_records) + "\n")                #将记录写入记录日志里
+        wdata = str(self.__total_records) + "    |        " + \
+        str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))) + \
+        "\n"
+
+        self.__fp.write(wdata)                                         #将记录写入记录日志里
         self.__fp.close()
         self.__client.close()                                            #当spider关闭则关闭数据库连接
 

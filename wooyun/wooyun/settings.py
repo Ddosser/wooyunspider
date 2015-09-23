@@ -44,7 +44,14 @@ DB_CONN = {
 
 if not IS_FIRSTTIME_CRAWL:                  #读取上一次记录值
     f = open(LOGS_PATH, "r")
-    OLD_TOTAL_RECORDS = f.read().replace("\n","").strip()
+    data = f.readlines()
+    for i in range(1, len(data)):
+        record = data[-i].replace("\n","").strip().split("|")[0]
+        if record:
+            OLD_TOTAL_RECORDS = int(record)
+            break
+        else:
+            continue
     f.close()
 
 if not SAVE_IMAGES:
