@@ -49,9 +49,7 @@
     |    |__bin
     |    |__include
     |    |__lib
-    |    |__local
-    |____|__tmp
-
+    |____|__local
    
 五、声明
 
