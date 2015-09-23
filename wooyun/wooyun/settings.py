@@ -20,7 +20,7 @@ IMAGES_MIN_WIDTH = 110
 #Custom settings
 SAVE_IMAGES = True                  #设置是否将图片存储到本地，默认为True，即存储图片到本地，如果为False，不存储，同时不更换img src地址
 IMAGESPIPELINE_ENABLE = 1           #如果设置了存储图片，则将ImagesPipeline开启，否则关闭
-IS_FIRSTTIME_CRAWL = False          #是否是第一次爬取
+IS_FIRSTTIME_CRAWL = True          #是否是第一次爬取
 LOGS_PATH = "./logs/records.log"    #记录每次爬取后的总数，更新爬取参照的变量
 RECORDS_PER_PAGE = 20               #页面上每页记录条数
 

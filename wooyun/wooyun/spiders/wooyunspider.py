@@ -35,7 +35,7 @@ class WooyunSpider(Spider):
         self.__total_records = int(sel.xpath("//p[@class='page']/text()").re('\d+')[0])
 
         if IS_FIRSTTIME_CRAWL:                               #第一次爬取
-            for np in range(total_pages, 0, -1):         #构造下页地址
+            for np in range(1 , total_pages + 1):         #构造下页地址
                 npage = r"/bugs/new_public/page/" + str(np)
                 url = response.urljoin(npage)
                 yield scrapy.Request(url, self.get_urls) 
@@ -51,7 +51,7 @@ class WooyunSpider(Spider):
 
             print "\033[1;31m" + str(update_records) + "\033[0m"
 
-            for np in range(update_pages, 0, -1):         #构造下页地址
+            for np in range(1, update_pages + 1):         #构造下页地址
                 npage = r"/bugs/new_public/page/" + str(np)
                 url = response.urljoin(npage)
                 if np == update_pages and (update_records%RECORDS_PER_PAGE) > 0:
