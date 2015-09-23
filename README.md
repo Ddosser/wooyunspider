@@ -34,17 +34,24 @@
     wooyunspider
     |__run.py
     |__config.py
+    |__README.md
     |__wooyun
-    |  |__logs
-    |  |__wooyun
-    |  |__wooyunspider
-    |  |__scrapy.cfg
+    |    |__logs
+    |    |__wooyun
+    |    |__wooyunspider
+    |    |__scrapy.cfg
     |__app
-    |   |__lib
-    |   |__static
-    |   |__templates
-    |___|__views.py
-   
+    |    |__lib
+    |    |__static(必须目录)
+    |    |__templates(必须目录)
+    |    |__views.py
+    |__flask
+    |    |__bin
+    |    |__include
+    |    |__lib
+    |    |__local
+    |____|__tmp
+
    
 五、声明
 
