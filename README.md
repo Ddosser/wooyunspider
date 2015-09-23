@@ -1,8 +1,10 @@
 一、项目目标
+
     收集乌云公开漏洞，提供在线搜索功能，为大家提供学习资源（仅作为学习）。
     
 
 二、使用环境
+
     1.本项目在Ubuntu上开发，依赖于python2.7。
     sudo apt-get install python
     2.使用scrapy爬虫框架
@@ -16,6 +18,7 @@
     http://v3.bootcss.com/getting-started/#download
     
 三、目录结构
+
     wooyunspider
     |__run.py
     |__config.py
@@ -32,4 +35,5 @@
    
    
 四、声明
+
    本项目所收集的漏洞来自乌云，版权及解释权归乌云所有。项目开发工具均为开源，因此本项目也作为开源供大家使用，但项目的目的只是为大家提供学习资料禁止用于非法目的，否则一切后果自负。
