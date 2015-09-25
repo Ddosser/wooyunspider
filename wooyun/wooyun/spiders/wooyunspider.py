@@ -70,6 +70,7 @@ class WooyunSpider(Spider):
             yield scrapy.Request(url, self.get_content)    
 
     def get_content(self,response):             #网站内容
+        image_urls_list = []
         sel = Selector(response)
         item = WooyunItem()
         item['title'] = sel.xpath('//title/text()').extract()[0].split("|")[0]
@@ -78,11 +79,16 @@ class WooyunSpider(Spider):
         item['date'] = sel.xpath("//h3[@class='wybug_date']/text()").re("[\d+]{4}-[\d+]{2}-[\d+]{2}")[0]
         item['open_time'] = sel.xpath("//h3[@class='wybug_open_date']/text()").re("[\d+]{4}-[\d+]{2}-[\d+]{2} [\d+]{2}:[\d+]{2}")[0]
         item['author'] = sel.xpath("//h3[@class='wybug_author']/a/text()").extract()[0].encode('utf-8')
-        #item['html'] = sel.xpath('/*').extract()[0].encode('utf-8')
-        item['html'] = ""
+        if "email" in item['author']:
+            item['author'] = sel.xpath("//h3[@class='wybug_author']/a/@href").extract()[0].encode('utf-8').split("/")[-1]
+        item['html'] = sel.xpath('/*').extract()[0].encode('utf-8')
         item['total_records'] = self.__total_records
         if SAVE_IMAGES:
-            item['image_urls'] = sel.xpath("//img[contains(@src, 'http://static.wooyun.org/wooyun/upload/')]/@src").extract()
-        else:
-            item['image_urls'] = []
+            item['image_urls'] = sel.xpath("//p[@class = 'detail usemasaic']/a/img[contains(@src, '/upload/')]/@src").extract()
+            for img_url in item['image_urls']:
+                if 'http://' not in img_url:
+                    url = response.urljoin(img_url)
+                    item['html'] = item['html'].replace(img_url, url)
+                    image_urls_list.append(url)
+            item['image_urls'] = image_urls_list
         return item

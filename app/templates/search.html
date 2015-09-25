@@ -2,38 +2,67 @@
 {% block content %}
 
 <div class="row offset2">
-    <div>
-        <h3 class="h2 text-center">关于&nbsp[{{ page_info['keyword'] }}]&nbsp的漏洞共有{{page_info['currentpage']}}/{{ page_info['totalpage'] }}页 {{ page_info['records'] }}篇</h3><br>
-    </div>
-    <div>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                <th class="th text-center">序&nbsp&nbsp&nbsp&nbsp号</th>
-                <th class="th text-center">标&nbsp&nbsp&nbsp&nbsp题</th>
-                <th class="th text-center">漏洞类型</th>
-                <th class="th text-center">提交时间</th>
-                <th class="th text-center">公开时间</th>
-                <th class="th text-center">提&nbsp&nbsp交&nbsp&nbsp者</th>
-                </tr>
-            </thead>
+    {%if searchwhat == "openbug":%}
+        <div>
+            <h3 class="h2 text-center">关于&nbsp[{{ page_info['keyword'] }}]&nbsp的漏洞共有{{page_info['currentpage']}}/{{ page_info['totalpage'] }}页 {{ page_info['records'] }}篇</h3><br>
+        </div>
+        <div>
 
-            <tbody>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                    <th class="th text-center">序&nbsp&nbsp&nbsp&nbsp号</th>
+                    <th class="th text-center">标&nbsp&nbsp&nbsp&nbsp题</th>
+                    <th class="th text-center">漏洞类型</th>
+                    <th class="th text-center">提交时间</th>
+                    <th class="th text-center">公开时间</th>
+                    <th class="th text-center">提&nbsp&nbsp交&nbsp&nbsp者</th>
+                    </tr>
+                </thead>
 
-            {% for res in page_info['rows'] %}
-                <tr class="success">
-                    <td class="td text-center">{{ res['WooyunID'] }}</td>
-                    <td class="td text-left"><a href = "/{{ res['WooyunID'] }}" target="_blank">{{res['Title']}}</a></td>
-                    <td class="td text-center">{{res['Vul_Type']}}</td>
-                    <td class="td text-center">{{res['Date']}}</td>
-                    <td class="td text-center">{{res['Open Time']}}</td>
-                    <td class="td text-center">{{res['Author']}}</td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+                <tbody>
+
+                {% for res in page_info['rows'] %}
+                    <tr class="success">
+                        <td class="td text-center">{{ res['WooyunID'] }}</td>
+                        <td class="td text-left"><a href = "/{{ res['WooyunID'] }}" target="_blank">{{res['Title']}}</a></td>
+                        <td class="td text-center">{{res['Vul_Type']}}</td>
+                        <td class="td text-center">{{res['Date']}}</td>
+                        <td class="td text-center">{{res['Open Time']}}</td>
+                        <td class="td text-center">{{res['Author']}}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {%else:%}
+        <div>
+            <h3 class="h2 text-center">搜索&nbsp[{{ page_info['keyword'] }}]&nbsp关键字共有{{page_info['currentpage']}}/{{ page_info['totalpage'] }}页 {{ page_info['records'] }}篇</h3><br>
+        </div>
+        <div>    
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                    <th class="th text-center">标&nbsp&nbsp&nbsp&nbsp题</th>
+                    <th class="th text-center">提交时间</th>
+                    <th class="th text-center">提&nbsp&nbsp交&nbsp&nbsp者</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                {% for res in page_info['rows'] %}
+                    <tr class="success">
+                        <td class="td text-left"><a href = "/{{ res['_id'] }}" target="_blank">{{res['Title']}}</a></td>
+                        <td class="td text-center">{{res['Date']}}</td>
+                        <td class="td text-center">{{res['Author']}}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>       
     </div>
-</div>
+{%endif%} 
+
 <script src="../static/js/bootstrap-paginator.min.js"></script>
 <script src="../static/js/lib/qunit-1.11.0.js"></script>
 {% if page_info['totalpage']  > 1 %}
@@ -49,7 +78,7 @@
                     numberOfPages: 5,
                     totalPages:{{ page_info['totalpage'] }},
                     onPageClicked:function(event,originalEvent,type,page){
-                        location.href = "/search?keywords={{page_info['keyword'] }}&&page="+page;
+                        location.href = "/search?searchwhat={{searchwhat}}&&keywords={{page_info['keyword'] }}&&page="+page;
                     }
                 };
 

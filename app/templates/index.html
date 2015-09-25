@@ -5,23 +5,54 @@
        <!--  <center>
             <img src="../static/logo/title.png"><br><br><br><br>
         </center> -->
-       <h1 class="h1 text-center">BugSearch</h1><br><br>
+       <h1 class="h1 text-center">Search Something</h1><br><br>
 </div>
+
 <div class="row">
-    <form class="bs-example bs-example-form form-midel" role="form" action="/search" method="post">
         <div class="row">
-            <div class="col-lg-6 col-lg-offset-3">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="input-group">
+                    <input type="text" class="form-control input-lg offset-4" name="keyword" id="keywords" placeholder="输入搜索关键字……">
+                    <span class="input-group-btn">
+                       <!--  <button type="submit" class="btn btn-lg btn-primary" onclick="javascript:search_openbug()">亲！搜啥</button> -->
+                        <button type="submit" class="btn btn-lg btn-primary dropdown-toggle" data-toggle="dropdown">搜啥<span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="javascript:search_openbug()">搜漏洞库</a></li>
+                          <li><a href="javascript:search_knowledge()">搜知识库</a></li>
+                        </ul>
+                    </span>               
+<!--                     <span class="input-group-btn">
+                         <button class="btn btn-primary btn-lg" type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button> 
+                    </span>     -->           
+               </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+         </div><!-- /.row -->
+
+<!--     <form class="bs-example bs-example-form form-midel" action="/search" role="form" method="post">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
                 <div class="input-group">
                     <input type="text" class="form-control input-lg offset-4" name="WooyunBug" placeholder="输入搜索关键词……">
                     <span class="input-group-btn">
-                        <button class="btn btn-primary btn-lg" type="submit">
-                            <span class="glyphicon glyphicon-search"></span>
+                        <button type="submit" class="btn btn-lg btn-primary dropdown-toggle" data-toggle="dropdown">亲！搜啥<span class="caret"></span>
                         </button>
-                    </span>
-                </div><!-- /input-group -->
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-       </form>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="/search">搜漏洞库</a></li>
+                          <li><a href="/knowledge">搜知识库</a></li>
+                        </ul>
+                    </span>   -->               
+<!--                     <span class="input-group-btn">
+                         <button class="btn btn-primary btn-lg" type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button> 
+                    </span>     -->           
+              <!--  </div> /input-group -->
+          <!--  </div><!-- /.col-lg-6 -->
+        <!--  </div><!-- /.row -->
+      <!-- </form>-->
 </div>
 
 {% endblock %}

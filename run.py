@@ -21,6 +21,6 @@ if reply is not "mongod":
 else:
     print "\033[1;32m [*] Mongodb is already runing \033[0m"
 
-app.debug = True
+app.debug = False 
 app.run(host = '0.0.0.0')
 

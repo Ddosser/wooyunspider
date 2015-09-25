@@ -11,8 +11,7 @@
 
 BOT_NAME = 'wooyun'
 
-IMAGES_STORE = '../app/static/images'             #存放图片的路径
-DOWNLOAD_DELAY=1                    #设置下载延迟，为1秒
+DOWNLOAD_DELAY=0                  #设置下载延迟，为1秒
 IMAGES_EXPIRES = 90                 #设置图片过期时间，避免重复下载
 IMAGES_MIN_HEIGHT = 110             #以下两项过滤小图片，可根据实际设置
 IMAGES_MIN_WIDTH = 110
@@ -21,17 +20,28 @@ IMAGES_MIN_WIDTH = 110
 SAVE_IMAGES = False                  #设置是否将图片存储到本地，默认为True，即存储图片到本地，如果为False，不存储，同时不更换img src地址
 IMAGESPIPELINE_ENABLE = 1           #如果设置了存储图片，则将ImagesPipeline开启，否则关闭
 IS_FIRSTTIME_CRAWL = True          #是否是第一次爬取
-LOGS_PATH = "./logs/records.log"    #记录每次爬取后的总数，更新爬取参照的变量
-RECORDS_PER_PAGE = 20               #页面上每页记录条数
+
+IS_OPENBUG_SPIDER = False
+IS_WOOYUNKNOWLEDGE_SPIDER = not IS_OPENBUG_SPIDER
 
 DB_SERVER = "127.0.0.1"                   #mongodb setting
 DB_PORT = 27017
 DB_NAME = "wooyun"
 DB_OWNER = "wooyun"
 DB_PASSWD = "5fsQgrQSYXg4"
-DB_COLLECTION = "wooyuno_penbug"
+
 DB_PATH = "~/mongodb/data"
 MONGODB_CMD = "nohup mongod --dbpath " + DB_PATH + "&"
+
+if IS_OPENBUG_SPIDER:
+    IMAGES_STORE = '../app/static/images'             #存放图片的路径
+    LOGS_PATH = "./logs/records.log"    #记录每次爬取后的总数，更新爬取参照的变量
+    RECORDS_PER_PAGE = 20               #页面上每页记录条数
+    DB_COLLECTION = "wooyun_openbug"    #MongoDB Collection
+else:
+    SAVE_IMAGES = True
+    IMAGES_STORE = '../app/static/images/knowledge'             #存放图片的路径
+    DB_COLLECTION = "wooyun_knowledge"         #MongoDB Collection
 
 DB_CONN = {
     "DB_SERVER": DB_SERVER,
@@ -57,15 +67,16 @@ if not IS_FIRSTTIME_CRAWL:                  #读取上一次记录值
 if not SAVE_IMAGES:
     IMAGESPIPELINE_ENABLE = 0
 
-#End setting
+ITEM_PIPELINES = {
+    'wooyun.pipelines.WooyunPipeline': 200,
+    'scrapy.pipelines.images.ImagesPipeline': IMAGESPIPELINE_ENABLE,#开启ImagesPipeline
+    'wooyun.pipelines.WooyunImagesPipeline': 300
+    }
+
+#End custom setting
 SPIDER_MODULES = ['wooyun.spiders']
 NEWSPIDER_MODULE = 'wooyun.spiders'
 
-ITEM_PIPELINES = {
-    'wooyun.pipelines.WooyunPipeline': 200,
-    'scrapy.pipelines.images.ImagesPipeline': IMAGESPIPELINE_ENABLE,    #开启ImagesPipeline
-    'wooyun.pipelines.WooyunImagesPipeline': 300
-}
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

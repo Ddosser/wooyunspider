@@ -6,7 +6,7 @@
 # http://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-#from scrapy import Item
+from wooyun.settings import *
 
 class WooyunItem(scrapy.Item):
     # define the fields for your item here like:
@@ -19,9 +19,14 @@ class WooyunItem(scrapy.Item):
     html = scrapy.Field()       #文章html源码
     author = scrapy.Field()     #
     total_records = scrapy.Field() #
-    image_urls = scrapy.Field() #文章里的图片地址
-    images = scrapy.Field()     #已下载的图片
+    if SAVE_IMAGES:
+        image_urls = scrapy.Field() #文章里的图片地址
+        images = scrapy.Field()     #已下载的图片
     #image_paths = scrapy.Field()#图片路径（本地路径）
-
     #link = scrapy.Field()       #文章链接，用于爬取网站内容
     #next_page = scrapy.Field()  #指向下一页
+
+    post_title = scrapy.Field()                 #wooyun knowledge posts
+    post_datetime = scrapy.Field()
+    post_author = scrapy.Field()
+    # post_html = scrapy.Field()

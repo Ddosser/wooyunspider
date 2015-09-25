@@ -10,11 +10,12 @@ from bson import ObjectId
 from app import app
 
 
-author = "Ddosser"
-version = "1.2"
+__author__ = "Ddosser"
+__version__ = "1.3"
 
 class DB_Connection(object):
     def __init__(self, db_conn):
+        self.__dbconn = db_conn
         self.__database = db_conn['DB_NAME']
         self.__dbclient = pymongo.MongoClient(db_conn['DB_SERVER'], db_conn['DB_PORT'])           #Making a db connection client.
         self.__db = self.__dbclient[db_conn['DB_NAME']]                                          #Sellecting a database (use database)
@@ -61,11 +62,14 @@ class DB_Connection(object):
             "currentpage":page,
             'rows':[]
         }
-
         if total_page >0 and page <= total_page:
             row_start = (page - 1) * app.config['RECORDS_PER_PAGE']
-            cursors = self.__dbcollection.find(keyword_regex, {'WooyunID':1, 'Title':1, 'Open Time':1, 'Date':1, 'Author':1, 'Vul_Type':1})\
+            if self.__dbconn['DB_COLLECTION'] == app.config['DB_COLLECTION_OPENBUG']:
+                cursors = self.__dbcollection.find(keyword_regex, {'WooyunID':1, 'Title':1, 'Open Time':1, 'Date':1, 'Author':1, 'Vul_Type':1})\
                 .sort('Open Time',pymongo.DESCENDING).skip(row_start).limit(app.config['RECORDS_PER_PAGE'])
+            elif self.__dbconn['DB_COLLECTION'] == app.config['DB_COLLECTION_KNOWLEDGE']:
+                cursors = self.__dbcollection.find(keyword_regex, {'_id':1, 'Title':1, 'Date':1, 'Author':1})\
+                .sort('Date',pymongo.DESCENDING).skip(row_start).limit(app.config['RECORDS_PER_PAGE'])
             for c in cursors:
                 page_info['rows'].append(c)
         return page_info
@@ -76,7 +80,12 @@ class DB_Connection(object):
         keyword_list = [kw for kw in k if kw!=""]
         reg_pattern = re.compile('|'.join(keyword_list), re.IGNORECASE)
         keyword_regex[fieldname] = reg_pattern
-        res = self.__dbcollection.find_one(keyword_regex, {'_id':1, 'WooyunID':1, 'Title':1, 'Open Time':1, 'Date':1, 'Author':1, 'Vul_Type':1, 'Content':1})
+        if self.__dbconn['DB_COLLECTION'] == app.config['DB_COLLECTION_KNOWLEDGE']:
+            res = self.__dbcollection.find_one({"_id":ObjectId(keywords.strip())}, {'_id':0, 'Title':1, 'Date':1, 'Author':1, 'Content':1})
+        elif self.__dbconn['DB_COLLECTION'] == app.config['DB_COLLECTION_OPENBUG']:
+            res = self.__dbcollection.find_one(keyword_regex, {'_id':0, 'WooyunID':1, 'Title':1, 'Open Time':1, 'Date':1, 'Author':1, 'Vul_Type':1, 'Content':1})
+        else:
+            res = None
         return res
 
     def db_close(self):

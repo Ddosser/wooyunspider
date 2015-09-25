@@ -17,6 +17,7 @@
 
     <script src="../static/jquery/1.11.3/jquery.min.js"></script>       <!---->
     <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/search.min.js"></script>
 
     <!-- Custom styles for this template -->
     <!-- <link href="../static/css/custom-theme.css" rel="stylesheet"> -->
@@ -59,11 +60,35 @@
             </ul>
             {% if not index %}
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <form class="navbar-form form-search" action="/search" method="post" role="search">
-                        <input class="from-control input-sm search-query" type="text" name="WooyunBug" placeholder="Input Keywords..."/>
-                        <button class="btn btn-sm btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                    </form>
+                <li class="navbar-form">
+                     <!-- <form class="navbar-form" role="search"> -->
+                        <input class="from-control input-sm search-query" type="text" id="keywords" placeholder="Input Keywords..."/>
+                        <!-- <button type="submit" class="btn btn-sm btn-primary" onclick="javascript:search_openbug()">亲！搜啥</button> -->
+                        <button type="submit" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown">搜啥<span class="caret"></span>
+                        </button> 
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="javascript:search_openbug()">搜漏洞库</a></li>
+                          <li><a href="javascript:search_knowledge()">搜知识库</a></li>
+                        </ul>                    
+                    <!--    <button class="btn btn-sm btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>-->
+<!--                     </form> 
+                    <div class="input-group form-search">
+                    <input type="text" class="form-control input-sm" name="keyword" id="keywords" placeholder="输入搜索关键字……">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-sm btn-primary" onclick="javascript:search_openbug()">亲！搜啥</button>
+                        <button type="submit" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="javascript:search_openbug()">搜漏洞库</a></li>
+                          <li><a href="javascript:search_knowledge()">搜知识库</a></li>
+                        </ul>
+                    </span>   -->             
+<!--                     <span class="input-group-btn">
+                         <button class="btn btn-primary btn-lg" type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button> 
+                    </span>     -->           
+                    <!-- </div> --><!-- /input-group -->
                 </li>
             </ul>
             {%endif%}

@@ -488,3 +488,2067 @@
 2015-09-24T00:15:39.776+0800 [conn18]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
 2015-09-24T00:15:39.886+0800 [conn17] end connection 127.0.0.1:54788 (1 connection now open)
 2015-09-24T00:15:39.886+0800 [conn18] end connection 127.0.0.1:54789 (1 connection now open)
+2015-09-24T00:16:37.796+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:16:37.796+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:16:37.796+0800 [clientcursormon]  connections:0
+2015-09-24T00:21:37.810+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:21:37.810+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:21:37.810+0800 [clientcursormon]  connections:0
+2015-09-24T00:26:37.824+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:26:37.824+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:26:37.824+0800 [clientcursormon]  connections:0
+2015-09-24T00:31:37.839+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:31:37.840+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:31:37.840+0800 [clientcursormon]  connections:0
+2015-09-24T00:36:37.856+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:36:37.856+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:36:37.856+0800 [clientcursormon]  connections:0
+2015-09-24T00:41:37.872+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:41:37.872+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:41:37.872+0800 [clientcursormon]  connections:0
+2015-09-24T00:46:37.887+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:46:37.887+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:46:37.887+0800 [clientcursormon]  connections:0
+2015-09-24T00:48:04.153+0800 [initandlisten] connection accepted from 127.0.0.1:55261 #19 (1 connection now open)
+2015-09-24T00:48:04.155+0800 [initandlisten] connection accepted from 127.0.0.1:55262 #20 (2 connections now open)
+2015-09-24T00:48:04.156+0800 [conn20]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:48:04.157+0800 [conn19] end connection 127.0.0.1:55261 (1 connection now open)
+2015-09-24T00:48:04.157+0800 [conn20] end connection 127.0.0.1:55262 (1 connection now open)
+2015-09-24T00:48:13.365+0800 [initandlisten] connection accepted from 127.0.0.1:55272 #21 (1 connection now open)
+2015-09-24T00:48:13.373+0800 [initandlisten] connection accepted from 127.0.0.1:55273 #22 (2 connections now open)
+2015-09-24T00:48:13.376+0800 [conn22]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:48:13.379+0800 [conn21] end connection 127.0.0.1:55272 (1 connection now open)
+2015-09-24T00:48:13.380+0800 [conn22] end connection 127.0.0.1:55273 (0 connections now open)
+2015-09-24T00:48:19.149+0800 [initandlisten] connection accepted from 127.0.0.1:55274 #23 (1 connection now open)
+2015-09-24T00:48:19.152+0800 [initandlisten] connection accepted from 127.0.0.1:55275 #24 (2 connections now open)
+2015-09-24T00:48:19.157+0800 [conn24]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:48:19.176+0800 [conn23] end connection 127.0.0.1:55274 (1 connection now open)
+2015-09-24T00:48:19.176+0800 [conn24] end connection 127.0.0.1:55275 (1 connection now open)
+2015-09-24T00:48:24.644+0800 [initandlisten] connection accepted from 127.0.0.1:55276 #25 (1 connection now open)
+2015-09-24T00:48:24.649+0800 [initandlisten] connection accepted from 127.0.0.1:55277 #26 (2 connections now open)
+2015-09-24T00:48:24.658+0800 [conn26]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:48:24.669+0800 [conn25] end connection 127.0.0.1:55276 (1 connection now open)
+2015-09-24T00:48:24.671+0800 [conn26] end connection 127.0.0.1:55277 (0 connections now open)
+2015-09-24T00:48:24.959+0800 [initandlisten] connection accepted from 127.0.0.1:55279 #27 (1 connection now open)
+2015-09-24T00:48:24.960+0800 [initandlisten] connection accepted from 127.0.0.1:55280 #28 (2 connections now open)
+2015-09-24T00:48:24.961+0800 [conn28]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:48:24.968+0800 [conn27] end connection 127.0.0.1:55279 (1 connection now open)
+2015-09-24T00:48:24.969+0800 [conn28] end connection 127.0.0.1:55280 (0 connections now open)
+2015-09-24T00:51:37.902+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:51:37.902+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:51:37.902+0800 [clientcursormon]  connections:0
+2015-09-24T00:56:37.916+0800 [clientcursormon] mem (MB) res:121 virt:964
+2015-09-24T00:56:37.916+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T00:56:37.916+0800 [clientcursormon]  connections:0
+2015-09-24T00:58:08.839+0800 [initandlisten] connection accepted from 127.0.0.1:55411 #29 (1 connection now open)
+2015-09-24T00:58:08.840+0800 [initandlisten] connection accepted from 127.0.0.1:55412 #30 (2 connections now open)
+2015-09-24T00:58:08.843+0800 [conn30]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:08.858+0800 [conn29] end connection 127.0.0.1:55411 (1 connection now open)
+2015-09-24T00:58:08.858+0800 [conn30] end connection 127.0.0.1:55412 (1 connection now open)
+2015-09-24T00:58:10.864+0800 [initandlisten] connection accepted from 127.0.0.1:55414 #31 (1 connection now open)
+2015-09-24T00:58:10.873+0800 [initandlisten] connection accepted from 127.0.0.1:55415 #32 (2 connections now open)
+2015-09-24T00:58:10.876+0800 [conn32]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:10.885+0800 [conn31] end connection 127.0.0.1:55414 (1 connection now open)
+2015-09-24T00:58:10.886+0800 [conn32] end connection 127.0.0.1:55415 (0 connections now open)
+2015-09-24T00:58:11.137+0800 [initandlisten] connection accepted from 127.0.0.1:55416 #33 (1 connection now open)
+2015-09-24T00:58:11.138+0800 [initandlisten] connection accepted from 127.0.0.1:55417 #34 (2 connections now open)
+2015-09-24T00:58:11.139+0800 [conn34]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:11.144+0800 [conn33] end connection 127.0.0.1:55416 (1 connection now open)
+2015-09-24T00:58:11.145+0800 [conn34] end connection 127.0.0.1:55417 (0 connections now open)
+2015-09-24T00:58:15.983+0800 [initandlisten] connection accepted from 127.0.0.1:55420 #35 (1 connection now open)
+2015-09-24T00:58:15.985+0800 [initandlisten] connection accepted from 127.0.0.1:55421 #36 (2 connections now open)
+2015-09-24T00:58:15.997+0800 [conn36]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:16.005+0800 [conn35] end connection 127.0.0.1:55420 (1 connection now open)
+2015-09-24T00:58:16.008+0800 [conn36] end connection 127.0.0.1:55421 (0 connections now open)
+2015-09-24T00:58:16.266+0800 [initandlisten] connection accepted from 127.0.0.1:55424 #37 (1 connection now open)
+2015-09-24T00:58:16.269+0800 [initandlisten] connection accepted from 127.0.0.1:55425 #38 (2 connections now open)
+2015-09-24T00:58:16.270+0800 [conn38]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:16.276+0800 [conn37] end connection 127.0.0.1:55424 (1 connection now open)
+2015-09-24T00:58:16.277+0800 [conn38] end connection 127.0.0.1:55425 (0 connections now open)
+2015-09-24T00:58:18.805+0800 [initandlisten] connection accepted from 127.0.0.1:55427 #39 (1 connection now open)
+2015-09-24T00:58:18.813+0800 [initandlisten] connection accepted from 127.0.0.1:55428 #40 (2 connections now open)
+2015-09-24T00:58:18.815+0800 [conn40]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:18.830+0800 [conn39] end connection 127.0.0.1:55427 (1 connection now open)
+2015-09-24T00:58:18.833+0800 [conn40] end connection 127.0.0.1:55428 (0 connections now open)
+2015-09-24T00:58:19.087+0800 [initandlisten] connection accepted from 127.0.0.1:55431 #41 (1 connection now open)
+2015-09-24T00:58:19.088+0800 [initandlisten] connection accepted from 127.0.0.1:55432 #42 (2 connections now open)
+2015-09-24T00:58:19.089+0800 [conn42]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:19.094+0800 [conn41] end connection 127.0.0.1:55431 (1 connection now open)
+2015-09-24T00:58:19.095+0800 [conn42] end connection 127.0.0.1:55432 (0 connections now open)
+2015-09-24T00:58:30.783+0800 [initandlisten] connection accepted from 127.0.0.1:55435 #43 (1 connection now open)
+2015-09-24T00:58:30.789+0800 [initandlisten] connection accepted from 127.0.0.1:55436 #44 (2 connections now open)
+2015-09-24T00:58:30.790+0800 [conn44]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:30.810+0800 [conn43] end connection 127.0.0.1:55435 (1 connection now open)
+2015-09-24T00:58:30.810+0800 [conn44] end connection 127.0.0.1:55436 (0 connections now open)
+2015-09-24T00:58:33.904+0800 [initandlisten] connection accepted from 127.0.0.1:55439 #45 (1 connection now open)
+2015-09-24T00:58:33.913+0800 [initandlisten] connection accepted from 127.0.0.1:55440 #46 (2 connections now open)
+2015-09-24T00:58:33.925+0800 [conn46]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:33.944+0800 [conn45] end connection 127.0.0.1:55439 (1 connection now open)
+2015-09-24T00:58:33.945+0800 [conn46] end connection 127.0.0.1:55440 (0 connections now open)
+2015-09-24T00:58:34.207+0800 [initandlisten] connection accepted from 127.0.0.1:55443 #47 (1 connection now open)
+2015-09-24T00:58:34.208+0800 [initandlisten] connection accepted from 127.0.0.1:55444 #48 (2 connections now open)
+2015-09-24T00:58:34.209+0800 [conn48]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T00:58:34.214+0800 [conn47] end connection 127.0.0.1:55443 (1 connection now open)
+2015-09-24T00:58:34.214+0800 [conn48] end connection 127.0.0.1:55444 (0 connections now open)
+2015-09-24T01:00:03.511+0800 [initandlisten] connection accepted from 127.0.0.1:55508 #49 (1 connection now open)
+2015-09-24T01:00:03.512+0800 [conn49]  authenticate db: wooyun { authenticate: 1, nonce: "xxx", user: "wooyun", key: "xxx" }
+2015-09-24T01:00:03.530+0800 [initandlisten] connection accepted from 127.0.0.1:55509 #50 (2 connections now open)
+2015-09-24T01:00:03.530+0800 [conn50]  authenticate db: wooyun { authenticate: 1, nonce: "xxx", user: "wooyun", key: "xxx" }
+2015-09-24T01:00:07.346+0800 [initandlisten] connection accepted from 127.0.0.1:55510 #51 (3 connections now open)
+2015-09-24T01:00:07.346+0800 [conn51]  authenticate db: wooyun { authenticate: 1, nonce: "xxx", user: "wooyun", key: "xxx" }
+2015-09-24T01:00:07.362+0800 [initandlisten] connection accepted from 127.0.0.1:55511 #52 (4 connections now open)
+2015-09-24T01:00:07.363+0800 [conn52]  authenticate db: wooyun { authenticate: 1, nonce: "xxx", user: "wooyun", key: "xxx" }
+2015-09-24T01:01:37.931+0800 [clientcursormon] mem (MB) res:87 virt:966
+2015-09-24T01:01:37.932+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:01:37.932+0800 [clientcursormon]  connections:4
+2015-09-24T01:06:37.949+0800 [clientcursormon] mem (MB) res:87 virt:966
+2015-09-24T01:06:37.949+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:06:37.949+0800 [clientcursormon]  connections:4
+2015-09-24T01:10:02.603+0800 [initandlisten] MongoDB starting : pid=10935 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T01:10:02.603+0800 [initandlisten] db version v2.6.3
+2015-09-24T01:10:02.603+0800 [initandlisten] git version: nogitversion
+2015-09-24T01:10:02.603+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T01:10:02.603+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T01:10:02.603+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T01:10:02.603+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T01:10:02.603+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T01:10:02.603+0800 [initandlisten] dbexit: 
+2015-09-24T01:10:02.603+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T01:10:02.603+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T01:10:02.603+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T01:10:02.603+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T01:10:02.603+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T01:10:02.603+0800 [initandlisten] shutdown: final commit...
+2015-09-24T01:10:02.603+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T01:10:02.603+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T01:10:02.603+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T01:10:03.689+0800 [initandlisten] connection accepted from 127.0.0.1:55558 #53 (5 connections now open)
+2015-09-24T01:10:03.691+0800 [initandlisten] connection accepted from 127.0.0.1:55559 #54 (6 connections now open)
+2015-09-24T01:10:03.692+0800 [conn54]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:10:19.622+0800 [conn54] end connection 127.0.0.1:55559 (5 connections now open)
+2015-09-24T01:10:19.622+0800 [conn53] end connection 127.0.0.1:55558 (5 connections now open)
+2015-09-24T01:11:37.964+0800 [clientcursormon] mem (MB) res:87 virt:968
+2015-09-24T01:11:37.965+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:11:37.965+0800 [clientcursormon]  connections:4
+2015-09-24T01:11:55.857+0800 [initandlisten] MongoDB starting : pid=11035 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T01:11:55.857+0800 [initandlisten] db version v2.6.3
+2015-09-24T01:11:55.857+0800 [initandlisten] git version: nogitversion
+2015-09-24T01:11:55.857+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T01:11:55.857+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T01:11:55.857+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T01:11:55.857+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T01:11:55.857+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T01:11:55.857+0800 [initandlisten] dbexit: 
+2015-09-24T01:11:55.857+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T01:11:55.857+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T01:11:55.857+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T01:11:55.857+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T01:11:55.857+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T01:11:55.857+0800 [initandlisten] shutdown: final commit...
+2015-09-24T01:11:55.857+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T01:11:55.857+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T01:11:55.858+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T01:11:56.955+0800 [initandlisten] connection accepted from 127.0.0.1:55571 #55 (5 connections now open)
+2015-09-24T01:11:56.956+0800 [initandlisten] connection accepted from 127.0.0.1:55572 #56 (6 connections now open)
+2015-09-24T01:11:56.957+0800 [conn56]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:15:46.426+0800 [conn56] end connection 127.0.0.1:55572 (5 connections now open)
+2015-09-24T01:15:46.426+0800 [conn55] end connection 127.0.0.1:55571 (5 connections now open)
+2015-09-24T01:16:31.604+0800 [initandlisten] MongoDB starting : pid=11255 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T01:16:31.604+0800 [initandlisten] db version v2.6.3
+2015-09-24T01:16:31.604+0800 [initandlisten] git version: nogitversion
+2015-09-24T01:16:31.604+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T01:16:31.604+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T01:16:31.604+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T01:16:31.604+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T01:16:31.604+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T01:16:31.604+0800 [initandlisten] dbexit: 
+2015-09-24T01:16:31.604+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T01:16:31.604+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T01:16:31.604+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T01:16:31.604+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T01:16:31.604+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T01:16:31.604+0800 [initandlisten] shutdown: final commit...
+2015-09-24T01:16:31.604+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T01:16:31.604+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T01:16:31.604+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T01:16:32.703+0800 [initandlisten] connection accepted from 127.0.0.1:55596 #57 (5 connections now open)
+2015-09-24T01:16:32.704+0800 [initandlisten] connection accepted from 127.0.0.1:55597 #58 (6 connections now open)
+2015-09-24T01:16:32.705+0800 [conn58]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:16:37.981+0800 [clientcursormon] mem (MB) res:87 virt:968
+2015-09-24T01:16:37.981+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:16:37.981+0800 [clientcursormon]  connections:6
+2015-09-24T01:17:08.749+0800 [conn58] end connection 127.0.0.1:55597 (5 connections now open)
+2015-09-24T01:17:08.749+0800 [conn57] end connection 127.0.0.1:55596 (5 connections now open)
+2015-09-24T01:18:50.768+0800 [initandlisten] MongoDB starting : pid=11381 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T01:18:50.768+0800 [initandlisten] db version v2.6.3
+2015-09-24T01:18:50.768+0800 [initandlisten] git version: nogitversion
+2015-09-24T01:18:50.768+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T01:18:50.768+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T01:18:50.768+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T01:18:50.768+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T01:18:50.768+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T01:18:50.768+0800 [initandlisten] dbexit: 
+2015-09-24T01:18:50.769+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T01:18:50.769+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T01:18:50.769+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T01:18:50.769+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T01:18:50.769+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T01:18:50.769+0800 [initandlisten] shutdown: final commit...
+2015-09-24T01:18:50.769+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T01:18:50.769+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T01:18:50.769+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T01:18:51.872+0800 [initandlisten] connection accepted from 127.0.0.1:55613 #59 (5 connections now open)
+2015-09-24T01:18:51.874+0800 [initandlisten] connection accepted from 127.0.0.1:55614 #60 (6 connections now open)
+2015-09-24T01:18:51.874+0800 [conn60]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:19:35.952+0800 [initandlisten] connection accepted from 127.0.0.1:55647 #61 (7 connections now open)
+2015-09-24T01:19:35.954+0800 [initandlisten] connection accepted from 127.0.0.1:55648 #62 (8 connections now open)
+2015-09-24T01:19:35.954+0800 [conn62]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:19:35.958+0800 [conn61] end connection 127.0.0.1:55647 (7 connections now open)
+2015-09-24T01:19:35.959+0800 [conn62] end connection 127.0.0.1:55648 (6 connections now open)
+2015-09-24T01:19:37.633+0800 [initandlisten] connection accepted from 127.0.0.1:55649 #63 (7 connections now open)
+2015-09-24T01:19:37.636+0800 [initandlisten] connection accepted from 127.0.0.1:55650 #64 (8 connections now open)
+2015-09-24T01:19:37.644+0800 [conn64]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:19:37.647+0800 [conn63] end connection 127.0.0.1:55649 (7 connections now open)
+2015-09-24T01:19:37.647+0800 [conn64] end connection 127.0.0.1:55650 (6 connections now open)
+2015-09-24T01:19:37.991+0800 [clientcursormon] mem (MB) res:100 virt:974
+2015-09-24T01:19:37.991+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:19:37.991+0800 [clientcursormon]  connections:6
+2015-09-24T01:19:41.916+0800 [initandlisten] connection accepted from 127.0.0.1:55674 #65 (7 connections now open)
+2015-09-24T01:19:41.918+0800 [initandlisten] connection accepted from 127.0.0.1:55675 #66 (8 connections now open)
+2015-09-24T01:19:41.919+0800 [conn66]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:19:41.921+0800 [conn65] end connection 127.0.0.1:55674 (7 connections now open)
+2015-09-24T01:19:41.921+0800 [conn66] end connection 127.0.0.1:55675 (7 connections now open)
+2015-09-24T01:24:38.006+0800 [clientcursormon] mem (MB) res:108 virt:974
+2015-09-24T01:24:38.006+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:24:38.006+0800 [clientcursormon]  connections:6
+2015-09-24T01:27:38.014+0800 [clientcursormon] mem (MB) res:124 virt:974
+2015-09-24T01:27:38.014+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:27:38.014+0800 [clientcursormon]  connections:6
+2015-09-24T01:30:38.024+0800 [clientcursormon] mem (MB) res:141 virt:974
+2015-09-24T01:30:38.024+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:30:38.024+0800 [clientcursormon]  connections:6
+2015-09-24T01:33:38.034+0800 [clientcursormon] mem (MB) res:159 virt:974
+2015-09-24T01:33:38.034+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:33:38.034+0800 [clientcursormon]  connections:6
+2015-09-24T01:36:23.347+0800 [initandlisten] connection accepted from 127.0.0.1:55797 #67 (7 connections now open)
+2015-09-24T01:36:23.352+0800 [initandlisten] connection accepted from 127.0.0.1:55802 #68 (8 connections now open)
+2015-09-24T01:36:23.353+0800 [conn68]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:36:23.376+0800 [conn67] end connection 127.0.0.1:55797 (7 connections now open)
+2015-09-24T01:36:23.376+0800 [conn68] end connection 127.0.0.1:55802 (7 connections now open)
+2015-09-24T01:36:30.047+0800 [initandlisten] connection accepted from 127.0.0.1:55829 #69 (7 connections now open)
+2015-09-24T01:36:30.048+0800 [initandlisten] connection accepted from 127.0.0.1:55830 #70 (8 connections now open)
+2015-09-24T01:36:30.050+0800 [conn70]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:36:30.057+0800 [conn69] end connection 127.0.0.1:55829 (7 connections now open)
+2015-09-24T01:36:30.057+0800 [conn70] end connection 127.0.0.1:55830 (6 connections now open)
+2015-09-24T01:36:32.107+0800 [initandlisten] connection accepted from 127.0.0.1:55850 #71 (7 connections now open)
+2015-09-24T01:36:32.108+0800 [initandlisten] connection accepted from 127.0.0.1:55851 #72 (8 connections now open)
+2015-09-24T01:36:32.109+0800 [conn72]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:36:32.119+0800 [conn71] end connection 127.0.0.1:55850 (7 connections now open)
+2015-09-24T01:36:32.119+0800 [conn72] end connection 127.0.0.1:55851 (7 connections now open)
+2015-09-24T01:36:38.043+0800 [clientcursormon] mem (MB) res:213 virt:974
+2015-09-24T01:36:38.043+0800 [clientcursormon]  mapped (incl journal view):736
+2015-09-24T01:36:38.043+0800 [clientcursormon]  connections:6
+2015-09-24T01:36:40.163+0800 [initandlisten] connection accepted from 127.0.0.1:55856 #73 (7 connections now open)
+2015-09-24T01:36:40.169+0800 [initandlisten] connection accepted from 127.0.0.1:55857 #74 (8 connections now open)
+2015-09-24T01:36:40.175+0800 [conn74]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:36:40.189+0800 [conn73] end connection 127.0.0.1:55856 (7 connections now open)
+2015-09-24T01:36:40.195+0800 [conn74] end connection 127.0.0.1:55857 (6 connections now open)
+2015-09-24T01:36:42.704+0800 [initandlisten] connection accepted from 127.0.0.1:55873 #75 (7 connections now open)
+2015-09-24T01:36:42.706+0800 [initandlisten] connection accepted from 127.0.0.1:55874 #76 (8 connections now open)
+2015-09-24T01:36:42.707+0800 [conn76]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:36:42.720+0800 [conn75] end connection 127.0.0.1:55873 (7 connections now open)
+2015-09-24T01:36:42.720+0800 [conn76] end connection 127.0.0.1:55874 (7 connections now open)
+2015-09-24T01:37:06.458+0800 [initandlisten] connection accepted from 127.0.0.1:55891 #77 (7 connections now open)
+2015-09-24T01:37:06.461+0800 [initandlisten] connection accepted from 127.0.0.1:55892 #78 (8 connections now open)
+2015-09-24T01:37:06.462+0800 [conn78]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:37:06.482+0800 [conn77] end connection 127.0.0.1:55891 (7 connections now open)
+2015-09-24T01:37:06.482+0800 [conn78] end connection 127.0.0.1:55892 (7 connections now open)
+2015-09-24T01:38:24.655+0800 [FileAllocator] allocating new datafile /home/arses/mongodb/data/wooyun.2, filling with zeroes...
+2015-09-24T01:38:24.657+0800 [FileAllocator] done allocating datafile /home/arses/mongodb/data/wooyun.2, size: 256MB,  took 0.002 secs
+2015-09-24T01:38:38.049+0800 [clientcursormon] mem (MB) res:191 virt:1486
+2015-09-24T01:38:38.049+0800 [clientcursormon]  mapped (incl journal view):1248
+2015-09-24T01:38:38.049+0800 [clientcursormon]  connections:6
+2015-09-24T01:41:38.059+0800 [clientcursormon] mem (MB) res:211 virt:1486
+2015-09-24T01:41:38.059+0800 [clientcursormon]  mapped (incl journal view):1248
+2015-09-24T01:41:38.059+0800 [clientcursormon]  connections:6
+2015-09-24T01:45:38.070+0800 [clientcursormon] mem (MB) res:239 virt:1486
+2015-09-24T01:45:38.070+0800 [clientcursormon]  mapped (incl journal view):1248
+2015-09-24T01:45:38.071+0800 [clientcursormon]  connections:6
+2015-09-24T01:49:38.082+0800 [clientcursormon] mem (MB) res:266 virt:1486
+2015-09-24T01:49:38.082+0800 [clientcursormon]  mapped (incl journal view):1248
+2015-09-24T01:49:38.082+0800 [clientcursormon]  connections:6
+2015-09-24T01:53:38.093+0800 [clientcursormon] mem (MB) res:296 virt:1486
+2015-09-24T01:53:38.093+0800 [clientcursormon]  mapped (incl journal view):1248
+2015-09-24T01:53:38.093+0800 [clientcursormon]  connections:6
+2015-09-24T01:58:38.107+0800 [clientcursormon] mem (MB) res:329 virt:1486
+2015-09-24T01:58:38.107+0800 [clientcursormon]  mapped (incl journal view):1248
+2015-09-24T01:58:38.107+0800 [clientcursormon]  connections:6
+2015-09-24T01:58:59.016+0800 [initandlisten] connection accepted from 127.0.0.1:56085 #79 (7 connections now open)
+2015-09-24T01:58:59.018+0800 [initandlisten] connection accepted from 127.0.0.1:56086 #80 (8 connections now open)
+2015-09-24T01:58:59.019+0800 [conn80]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:58:59.055+0800 [conn79] end connection 127.0.0.1:56085 (7 connections now open)
+2015-09-24T01:58:59.056+0800 [conn80] end connection 127.0.0.1:56086 (6 connections now open)
+2015-09-24T01:59:04.107+0800 [initandlisten] connection accepted from 127.0.0.1:56101 #81 (7 connections now open)
+2015-09-24T01:59:04.122+0800 [initandlisten] connection accepted from 127.0.0.1:56102 #82 (8 connections now open)
+2015-09-24T01:59:04.141+0800 [conn82]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:59:04.144+0800 [conn81] end connection 127.0.0.1:56101 (7 connections now open)
+2015-09-24T01:59:04.154+0800 [conn82] end connection 127.0.0.1:56102 (6 connections now open)
+2015-09-24T01:59:34.959+0800 [initandlisten] connection accepted from 127.0.0.1:56142 #83 (7 connections now open)
+2015-09-24T01:59:34.960+0800 [initandlisten] connection accepted from 127.0.0.1:56143 #84 (8 connections now open)
+2015-09-24T01:59:34.961+0800 [conn84]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:59:34.999+0800 [conn84] end connection 127.0.0.1:56143 (7 connections now open)
+2015-09-24T01:59:34.999+0800 [conn83] end connection 127.0.0.1:56142 (7 connections now open)
+2015-09-24T01:59:38.110+0800 [clientcursormon] mem (MB) res:416 virt:1486
+2015-09-24T01:59:38.110+0800 [clientcursormon]  mapped (incl journal view):1248
+2015-09-24T01:59:38.110+0800 [clientcursormon]  connections:6
+2015-09-24T01:59:38.890+0800 [initandlisten] connection accepted from 127.0.0.1:56153 #85 (7 connections now open)
+2015-09-24T01:59:38.891+0800 [initandlisten] connection accepted from 127.0.0.1:56154 #86 (8 connections now open)
+2015-09-24T01:59:38.892+0800 [conn86]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:59:38.934+0800 [conn86] end connection 127.0.0.1:56154 (7 connections now open)
+2015-09-24T01:59:38.934+0800 [conn85] end connection 127.0.0.1:56153 (7 connections now open)
+2015-09-24T01:59:53.359+0800 [initandlisten] connection accepted from 127.0.0.1:56166 #87 (7 connections now open)
+2015-09-24T01:59:53.361+0800 [initandlisten] connection accepted from 127.0.0.1:56167 #88 (8 connections now open)
+2015-09-24T01:59:53.362+0800 [conn88]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T01:59:53.425+0800 [conn88] end connection 127.0.0.1:56167 (7 connections now open)
+2015-09-24T01:59:53.425+0800 [conn87] end connection 127.0.0.1:56166 (7 connections now open)
+2015-09-24T02:00:06.376+0800 [initandlisten] connection accepted from 127.0.0.1:56170 #89 (7 connections now open)
+2015-09-24T02:00:06.377+0800 [initandlisten] connection accepted from 127.0.0.1:56171 #90 (8 connections now open)
+2015-09-24T02:00:06.378+0800 [conn90]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:00:06.383+0800 [conn90] end connection 127.0.0.1:56171 (7 connections now open)
+2015-09-24T02:00:06.383+0800 [conn89] end connection 127.0.0.1:56170 (7 connections now open)
+2015-09-24T02:00:49.529+0800 [initandlisten] connection accepted from 127.0.0.1:56216 #91 (7 connections now open)
+2015-09-24T02:00:49.530+0800 [initandlisten] connection accepted from 127.0.0.1:56217 #92 (8 connections now open)
+2015-09-24T02:00:49.531+0800 [conn92]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:00:49.547+0800 [conn92] end connection 127.0.0.1:56217 (7 connections now open)
+2015-09-24T02:00:49.547+0800 [conn91] end connection 127.0.0.1:56216 (7 connections now open)
+2015-09-24T02:01:41.083+0800 [initandlisten] connection accepted from 127.0.0.1:56233 #93 (7 connections now open)
+2015-09-24T02:01:41.084+0800 [initandlisten] connection accepted from 127.0.0.1:56234 #94 (8 connections now open)
+2015-09-24T02:01:41.085+0800 [conn94]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:01:41.134+0800 [conn93] end connection 127.0.0.1:56233 (7 connections now open)
+2015-09-24T02:01:41.134+0800 [conn94] end connection 127.0.0.1:56234 (7 connections now open)
+2015-09-24T02:01:46.098+0800 [initandlisten] connection accepted from 127.0.0.1:56236 #95 (7 connections now open)
+2015-09-24T02:01:46.098+0800 [initandlisten] connection accepted from 127.0.0.1:56237 #96 (8 connections now open)
+2015-09-24T02:01:46.104+0800 [conn96]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:01:46.166+0800 [conn95] end connection 127.0.0.1:56236 (7 connections now open)
+2015-09-24T02:01:46.166+0800 [conn96] end connection 127.0.0.1:56237 (7 connections now open)
+2015-09-24T02:02:13.717+0800 [initandlisten] connection accepted from 127.0.0.1:56263 #97 (7 connections now open)
+2015-09-24T02:02:13.718+0800 [initandlisten] connection accepted from 127.0.0.1:56264 #98 (8 connections now open)
+2015-09-24T02:02:13.719+0800 [conn98]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:02:13.771+0800 [conn98] end connection 127.0.0.1:56264 (7 connections now open)
+2015-09-24T02:02:13.775+0800 [conn97] end connection 127.0.0.1:56263 (6 connections now open)
+2015-09-24T02:04:38.125+0800 [clientcursormon] mem (MB) res:448 virt:1488
+2015-09-24T02:04:38.125+0800 [clientcursormon]  mapped (incl journal view):1248
+2015-09-24T02:04:38.125+0800 [clientcursormon]  connections:6
+2015-09-24T02:04:51.881+0800 [initandlisten] connection accepted from 127.0.0.1:56299 #99 (7 connections now open)
+2015-09-24T02:04:51.882+0800 [initandlisten] connection accepted from 127.0.0.1:56300 #100 (8 connections now open)
+2015-09-24T02:04:51.882+0800 [conn100]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:04:51.919+0800 [conn99] end connection 127.0.0.1:56299 (7 connections now open)
+2015-09-24T02:04:51.919+0800 [conn100] end connection 127.0.0.1:56300 (7 connections now open)
+2015-09-24T02:05:22.849+0800 [initandlisten] connection accepted from 127.0.0.1:56304 #101 (7 connections now open)
+2015-09-24T02:05:22.851+0800 [initandlisten] connection accepted from 127.0.0.1:56305 #102 (8 connections now open)
+2015-09-24T02:05:22.856+0800 [conn102]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:05:22.900+0800 [conn101] end connection 127.0.0.1:56304 (7 connections now open)
+2015-09-24T02:05:22.901+0800 [conn102] end connection 127.0.0.1:56305 (6 connections now open)
+2015-09-24T02:05:34.528+0800 [initandlisten] connection accepted from 127.0.0.1:56307 #103 (7 connections now open)
+2015-09-24T02:05:34.544+0800 [initandlisten] connection accepted from 127.0.0.1:56308 #104 (8 connections now open)
+2015-09-24T02:05:34.545+0800 [conn104]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:05:34.548+0800 [conn103] end connection 127.0.0.1:56307 (7 connections now open)
+2015-09-24T02:05:34.565+0800 [conn104] end connection 127.0.0.1:56308 (6 connections now open)
+2015-09-24T02:05:38.307+0800 [initandlisten] connection accepted from 127.0.0.1:56333 #105 (7 connections now open)
+2015-09-24T02:05:38.308+0800 [initandlisten] connection accepted from 127.0.0.1:56334 #106 (8 connections now open)
+2015-09-24T02:05:38.308+0800 [conn106]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T02:05:38.327+0800 [conn105] end connection 127.0.0.1:56333 (7 connections now open)
+2015-09-24T02:05:38.327+0800 [conn106] end connection 127.0.0.1:56334 (7 connections now open)
+2015-09-24T02:08:23.867+0800 [FileAllocator] allocating new datafile /home/arses/mongodb/data/wooyun.3, filling with zeroes...
+2015-09-24T02:08:23.872+0800 [FileAllocator] done allocating datafile /home/arses/mongodb/data/wooyun.3, size: 512MB,  took 0.004 secs
+2015-09-24T02:08:38.139+0800 [clientcursormon] mem (MB) res:476 virt:2512
+2015-09-24T02:08:38.139+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:08:38.139+0800 [clientcursormon]  connections:6
+2015-09-24T02:13:38.155+0800 [clientcursormon] mem (MB) res:509 virt:2512
+2015-09-24T02:13:38.155+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:13:38.155+0800 [clientcursormon]  connections:6
+2015-09-24T02:18:38.172+0800 [clientcursormon] mem (MB) res:523 virt:2512
+2015-09-24T02:18:38.172+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:18:38.172+0800 [clientcursormon]  connections:6
+2015-09-24T02:23:38.188+0800 [clientcursormon] mem (MB) res:560 virt:2512
+2015-09-24T02:23:38.189+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:23:38.189+0800 [clientcursormon]  connections:6
+2015-09-24T02:28:38.204+0800 [clientcursormon] mem (MB) res:597 virt:2512
+2015-09-24T02:28:38.204+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:28:38.205+0800 [clientcursormon]  connections:6
+2015-09-24T02:33:38.220+0800 [clientcursormon] mem (MB) res:628 virt:2512
+2015-09-24T02:33:38.220+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:33:38.220+0800 [clientcursormon]  connections:6
+2015-09-24T02:38:38.236+0800 [clientcursormon] mem (MB) res:660 virt:2512
+2015-09-24T02:38:38.236+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:38:38.236+0800 [clientcursormon]  connections:6
+2015-09-24T02:43:38.252+0800 [clientcursormon] mem (MB) res:694 virt:2512
+2015-09-24T02:43:38.252+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:43:38.252+0800 [clientcursormon]  connections:6
+2015-09-24T02:48:38.266+0800 [clientcursormon] mem (MB) res:726 virt:2512
+2015-09-24T02:48:38.267+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:48:38.267+0800 [clientcursormon]  connections:6
+2015-09-24T02:53:38.282+0800 [clientcursormon] mem (MB) res:761 virt:2512
+2015-09-24T02:53:38.282+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:53:38.283+0800 [clientcursormon]  connections:6
+2015-09-24T02:58:38.298+0800 [clientcursormon] mem (MB) res:797 virt:2512
+2015-09-24T02:58:38.298+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T02:58:38.298+0800 [clientcursormon]  connections:6
+2015-09-24T03:03:38.314+0800 [clientcursormon] mem (MB) res:834 virt:2512
+2015-09-24T03:03:38.314+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T03:03:38.314+0800 [clientcursormon]  connections:6
+2015-09-24T03:08:38.329+0800 [clientcursormon] mem (MB) res:870 virt:2512
+2015-09-24T03:08:38.330+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T03:08:38.330+0800 [clientcursormon]  connections:6
+2015-09-24T03:13:38.345+0800 [clientcursormon] mem (MB) res:905 virt:2512
+2015-09-24T03:13:38.345+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T03:13:38.345+0800 [clientcursormon]  connections:6
+2015-09-24T03:18:38.362+0800 [clientcursormon] mem (MB) res:936 virt:2512
+2015-09-24T03:18:38.362+0800 [clientcursormon]  mapped (incl journal view):2272
+2015-09-24T03:18:38.362+0800 [clientcursormon]  connections:6
+2015-09-24T03:23:31.392+0800 [FileAllocator] allocating new datafile /home/arses/mongodb/data/wooyun.4, filling with zeroes...
+2015-09-24T03:23:31.397+0800 [FileAllocator] done allocating datafile /home/arses/mongodb/data/wooyun.4, size: 1024MB,  took 0.004 secs
+2015-09-24T03:23:38.377+0800 [clientcursormon] mem (MB) res:973 virt:4560
+2015-09-24T03:23:38.378+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T03:23:38.378+0800 [clientcursormon]  connections:6
+2015-09-24T03:28:38.394+0800 [clientcursormon] mem (MB) res:1007 virt:4560
+2015-09-24T03:28:38.394+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T03:28:38.394+0800 [clientcursormon]  connections:6
+2015-09-24T03:33:38.410+0800 [clientcursormon] mem (MB) res:1045 virt:4560
+2015-09-24T03:33:38.410+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T03:33:38.410+0800 [clientcursormon]  connections:6
+2015-09-24T03:38:38.426+0800 [clientcursormon] mem (MB) res:1081 virt:4560
+2015-09-24T03:38:38.426+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T03:38:38.426+0800 [clientcursormon]  connections:6
+2015-09-24T03:43:38.442+0800 [clientcursormon] mem (MB) res:1115 virt:4560
+2015-09-24T03:43:38.442+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T03:43:38.442+0800 [clientcursormon]  connections:6
+2015-09-24T03:48:38.457+0800 [clientcursormon] mem (MB) res:1151 virt:4560
+2015-09-24T03:48:38.457+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T03:48:38.457+0800 [clientcursormon]  connections:6
+2015-09-24T03:53:38.473+0800 [clientcursormon] mem (MB) res:1184 virt:4560
+2015-09-24T03:53:38.473+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T03:53:38.473+0800 [clientcursormon]  connections:6
+2015-09-24T03:58:38.488+0800 [clientcursormon] mem (MB) res:1218 virt:4560
+2015-09-24T03:58:38.488+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T03:58:38.488+0800 [clientcursormon]  connections:6
+2015-09-24T04:03:38.505+0800 [clientcursormon] mem (MB) res:1251 virt:4560
+2015-09-24T04:03:38.505+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:03:38.505+0800 [clientcursormon]  connections:6
+2015-09-24T04:08:38.521+0800 [clientcursormon] mem (MB) res:1291 virt:4560
+2015-09-24T04:08:38.521+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:08:38.521+0800 [clientcursormon]  connections:6
+2015-09-24T04:13:38.536+0800 [clientcursormon] mem (MB) res:1326 virt:4560
+2015-09-24T04:13:38.537+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:13:38.537+0800 [clientcursormon]  connections:6
+2015-09-24T04:18:38.552+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:18:38.552+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:18:38.552+0800 [clientcursormon]  connections:6
+2015-09-24T04:18:46.256+0800 [conn60] end connection 127.0.0.1:55614 (5 connections now open)
+2015-09-24T04:18:46.256+0800 [conn59] end connection 127.0.0.1:55613 (5 connections now open)
+2015-09-24T04:23:38.569+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:23:38.569+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:23:38.569+0800 [clientcursormon]  connections:4
+2015-09-24T04:28:38.586+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:28:38.586+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:28:38.586+0800 [clientcursormon]  connections:4
+2015-09-24T04:33:38.604+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:33:38.605+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:33:38.605+0800 [clientcursormon]  connections:4
+2015-09-24T04:38:38.622+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:38:38.622+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:38:38.622+0800 [clientcursormon]  connections:4
+2015-09-24T04:43:38.640+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:43:38.640+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:43:38.640+0800 [clientcursormon]  connections:4
+2015-09-24T04:48:38.657+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:48:38.657+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:48:38.657+0800 [clientcursormon]  connections:4
+2015-09-24T04:53:38.675+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:53:38.675+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:53:38.675+0800 [clientcursormon]  connections:4
+2015-09-24T04:58:38.693+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T04:58:38.693+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T04:58:38.693+0800 [clientcursormon]  connections:4
+2015-09-24T05:03:38.710+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:03:38.710+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:03:38.710+0800 [clientcursormon]  connections:4
+2015-09-24T05:08:38.727+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:08:38.727+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:08:38.727+0800 [clientcursormon]  connections:4
+2015-09-24T05:13:38.745+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:13:38.745+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:13:38.745+0800 [clientcursormon]  connections:4
+2015-09-24T05:18:38.762+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:18:38.762+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:18:38.762+0800 [clientcursormon]  connections:4
+2015-09-24T05:23:38.779+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:23:38.780+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:23:38.780+0800 [clientcursormon]  connections:4
+2015-09-24T05:28:38.797+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:28:38.797+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:28:38.797+0800 [clientcursormon]  connections:4
+2015-09-24T05:33:38.815+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:33:38.815+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:33:38.815+0800 [clientcursormon]  connections:4
+2015-09-24T05:38:38.833+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:38:38.833+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:38:38.833+0800 [clientcursormon]  connections:4
+2015-09-24T05:43:38.849+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:43:38.849+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:43:38.849+0800 [clientcursormon]  connections:4
+2015-09-24T05:48:38.867+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:48:38.867+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:48:38.867+0800 [clientcursormon]  connections:4
+2015-09-24T05:53:38.885+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:53:38.885+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:53:38.885+0800 [clientcursormon]  connections:4
+2015-09-24T05:58:38.903+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T05:58:38.903+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T05:58:38.903+0800 [clientcursormon]  connections:4
+2015-09-24T06:03:38.921+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:03:38.921+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:03:38.921+0800 [clientcursormon]  connections:4
+2015-09-24T06:08:38.938+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:08:38.938+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:08:38.938+0800 [clientcursormon]  connections:4
+2015-09-24T06:13:38.956+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:13:38.956+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:13:38.956+0800 [clientcursormon]  connections:4
+2015-09-24T06:18:38.974+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:18:38.974+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:18:38.974+0800 [clientcursormon]  connections:4
+2015-09-24T06:23:38.991+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:23:38.992+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:23:38.992+0800 [clientcursormon]  connections:4
+2015-09-24T06:28:39.009+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:28:39.009+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:28:39.009+0800 [clientcursormon]  connections:4
+2015-09-24T06:33:39.027+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:33:39.027+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:33:39.027+0800 [clientcursormon]  connections:4
+2015-09-24T06:38:39.045+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:38:39.045+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:38:39.045+0800 [clientcursormon]  connections:4
+2015-09-24T06:43:39.062+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:43:39.063+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:43:39.063+0800 [clientcursormon]  connections:4
+2015-09-24T06:48:39.080+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:48:39.080+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:48:39.080+0800 [clientcursormon]  connections:4
+2015-09-24T06:53:39.097+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:53:39.097+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:53:39.097+0800 [clientcursormon]  connections:4
+2015-09-24T06:58:39.115+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T06:58:39.115+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T06:58:39.115+0800 [clientcursormon]  connections:4
+2015-09-24T07:03:39.133+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:03:39.133+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:03:39.133+0800 [clientcursormon]  connections:4
+2015-09-24T07:08:39.151+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:08:39.151+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:08:39.151+0800 [clientcursormon]  connections:4
+2015-09-24T07:13:39.169+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:13:39.169+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:13:39.169+0800 [clientcursormon]  connections:4
+2015-09-24T07:18:39.186+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:18:39.186+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:18:39.186+0800 [clientcursormon]  connections:4
+2015-09-24T07:23:39.205+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:23:39.205+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:23:39.205+0800 [clientcursormon]  connections:4
+2015-09-24T07:28:39.222+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:28:39.222+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:28:39.222+0800 [clientcursormon]  connections:4
+2015-09-24T07:33:39.240+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:33:39.240+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:33:39.240+0800 [clientcursormon]  connections:4
+2015-09-24T07:38:39.256+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:38:39.257+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:38:39.257+0800 [clientcursormon]  connections:4
+2015-09-24T07:43:39.275+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:43:39.275+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:43:39.275+0800 [clientcursormon]  connections:4
+2015-09-24T07:48:39.293+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:48:39.293+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:48:39.293+0800 [clientcursormon]  connections:4
+2015-09-24T07:53:39.311+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:53:39.311+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:53:39.311+0800 [clientcursormon]  connections:4
+2015-09-24T07:58:39.329+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T07:58:39.329+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T07:58:39.329+0800 [clientcursormon]  connections:4
+2015-09-24T08:03:39.346+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T08:03:39.346+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T08:03:39.346+0800 [clientcursormon]  connections:4
+2015-09-24T08:08:39.363+0800 [clientcursormon] mem (MB) res:1361 virt:4560
+2015-09-24T08:08:39.363+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T08:08:39.363+0800 [clientcursormon]  connections:4
+2015-09-24T08:12:30.505+0800 [initandlisten] connection accepted from 127.0.0.1:57974 #107 (5 connections now open)
+2015-09-24T08:12:30.506+0800 [initandlisten] connection accepted from 127.0.0.1:57975 #108 (6 connections now open)
+2015-09-24T08:12:30.506+0800 [conn108]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:12:30.606+0800 [conn107] end connection 127.0.0.1:57974 (5 connections now open)
+2015-09-24T08:12:30.606+0800 [conn108] end connection 127.0.0.1:57975 (4 connections now open)
+2015-09-24T08:12:39.377+0800 [clientcursormon] mem (MB) res:2441 virt:4560
+2015-09-24T08:12:39.377+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T08:12:39.377+0800 [clientcursormon]  connections:4
+2015-09-24T08:12:45.183+0800 [initandlisten] connection accepted from 127.0.0.1:57986 #109 (5 connections now open)
+2015-09-24T08:12:45.185+0800 [initandlisten] connection accepted from 127.0.0.1:57987 #110 (6 connections now open)
+2015-09-24T08:12:45.185+0800 [conn110]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:12:45.309+0800 [conn109] end connection 127.0.0.1:57986 (5 connections now open)
+2015-09-24T08:12:45.309+0800 [conn110] end connection 127.0.0.1:57987 (5 connections now open)
+2015-09-24T08:12:55.530+0800 [initandlisten] connection accepted from 127.0.0.1:57992 #111 (5 connections now open)
+2015-09-24T08:12:55.532+0800 [initandlisten] connection accepted from 127.0.0.1:57993 #112 (6 connections now open)
+2015-09-24T08:12:55.534+0800 [conn112]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:12:55.620+0800 [conn112] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:12:55.621+0800 [conn112] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:12:55.621+0800 [conn112]  ntoskip:5940 ntoreturn:20
+2015-09-24T08:13:36.816+0800 [initandlisten] connection accepted from 127.0.0.1:58002 #113 (7 connections now open)
+2015-09-24T08:13:36.818+0800 [initandlisten] connection accepted from 127.0.0.1:58003 #114 (8 connections now open)
+2015-09-24T08:13:36.819+0800 [conn114]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:13:36.961+0800 [conn114] end connection 127.0.0.1:58003 (7 connections now open)
+2015-09-24T08:13:36.961+0800 [conn113] end connection 127.0.0.1:58002 (7 connections now open)
+2015-09-24T08:13:39.540+0800 [initandlisten] connection accepted from 127.0.0.1:58008 #115 (7 connections now open)
+2015-09-24T08:13:39.542+0800 [initandlisten] connection accepted from 127.0.0.1:58009 #116 (8 connections now open)
+2015-09-24T08:13:39.543+0800 [conn116]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:13:39.684+0800 [conn115] end connection 127.0.0.1:58008 (7 connections now open)
+2015-09-24T08:13:39.685+0800 [conn116] end connection 127.0.0.1:58009 (6 connections now open)
+2015-09-24T08:13:41.576+0800 [initandlisten] connection accepted from 127.0.0.1:58012 #117 (7 connections now open)
+2015-09-24T08:13:41.577+0800 [initandlisten] connection accepted from 127.0.0.1:58013 #118 (8 connections now open)
+2015-09-24T08:13:41.578+0800 [conn118]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:13:41.709+0800 [conn118] end connection 127.0.0.1:58013 (7 connections now open)
+2015-09-24T08:13:41.709+0800 [conn117] end connection 127.0.0.1:58012 (7 connections now open)
+2015-09-24T08:13:53.063+0800 [initandlisten] connection accepted from 127.0.0.1:58018 #119 (7 connections now open)
+2015-09-24T08:13:53.076+0800 [initandlisten] connection accepted from 127.0.0.1:58019 #120 (8 connections now open)
+2015-09-24T08:13:53.078+0800 [conn120]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:13:53.205+0800 [conn120] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:13:53.206+0800 [conn120] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:13:53.206+0800 [conn120]  ntoskip:5940 ntoreturn:20
+2015-09-24T08:13:57.775+0800 [initandlisten] connection accepted from 127.0.0.1:58030 #121 (9 connections now open)
+2015-09-24T08:13:57.785+0800 [initandlisten] connection accepted from 127.0.0.1:58031 #122 (10 connections now open)
+2015-09-24T08:13:57.793+0800 [conn122]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:13:57.904+0800 [conn122] command wooyun.$cmd command: count { count: "wooyuno_penbug", query: { Title: /sql/i } } planSummary: COLLSCAN keyUpdates:0 numYields:0 locks(micros) r:104375 reslen:48 104ms
+2015-09-24T08:13:57.932+0800 [conn122] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:13:57.933+0800 [conn122] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:13:57.933+0800 [conn122]  ntoskip:5920 ntoreturn:20
+2015-09-24T08:14:02.674+0800 [initandlisten] connection accepted from 127.0.0.1:58041 #123 (11 connections now open)
+2015-09-24T08:14:02.677+0800 [initandlisten] connection accepted from 127.0.0.1:58042 #124 (12 connections now open)
+2015-09-24T08:14:02.678+0800 [conn124]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:02.797+0800 [conn124] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:14:02.797+0800 [conn124] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:14:02.797+0800 [conn124]  ntoskip:5580 ntoreturn:20
+2015-09-24T08:14:08.423+0800 [initandlisten] connection accepted from 127.0.0.1:58052 #125 (13 connections now open)
+2015-09-24T08:14:08.428+0800 [initandlisten] connection accepted from 127.0.0.1:58053 #126 (14 connections now open)
+2015-09-24T08:14:08.432+0800 [conn126]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:08.557+0800 [conn126] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:14:08.557+0800 [conn126] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:14:08.557+0800 [conn126]  ntoskip:4980 ntoreturn:20
+2015-09-24T08:14:11.588+0800 [initandlisten] connection accepted from 127.0.0.1:58063 #127 (15 connections now open)
+2015-09-24T08:14:11.594+0800 [initandlisten] connection accepted from 127.0.0.1:58064 #128 (16 connections now open)
+2015-09-24T08:14:11.597+0800 [conn128]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:11.714+0800 [conn128] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:14:11.714+0800 [conn128] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:14:11.714+0800 [conn128]  ntoskip:1980 ntoreturn:20
+2015-09-24T08:14:14.651+0800 [initandlisten] connection accepted from 127.0.0.1:58072 #129 (17 connections now open)
+2015-09-24T08:14:14.664+0800 [initandlisten] connection accepted from 127.0.0.1:58073 #130 (18 connections now open)
+2015-09-24T08:14:14.679+0800 [conn130]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:14.783+0800 [conn130] command wooyun.$cmd command: count { count: "wooyuno_penbug", query: { Title: /sql/i } } planSummary: COLLSCAN keyUpdates:0 numYields:0 locks(micros) r:102106 reslen:48 102ms
+2015-09-24T08:14:14.867+0800 [conn129] end connection 127.0.0.1:58072 (17 connections now open)
+2015-09-24T08:14:14.867+0800 [conn130] end connection 127.0.0.1:58073 (17 connections now open)
+2015-09-24T08:14:20.667+0800 [initandlisten] connection accepted from 127.0.0.1:58075 #131 (17 connections now open)
+2015-09-24T08:14:20.682+0800 [initandlisten] connection accepted from 127.0.0.1:58076 #132 (18 connections now open)
+2015-09-24T08:14:20.684+0800 [conn132]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:20.809+0800 [conn132] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:14:20.809+0800 [conn132] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:14:20.809+0800 [conn132]  ntoskip:1480 ntoreturn:20
+2015-09-24T08:14:30.704+0800 [initandlisten] connection accepted from 127.0.0.1:58084 #133 (19 connections now open)
+2015-09-24T08:14:30.705+0800 [initandlisten] connection accepted from 127.0.0.1:58085 #134 (20 connections now open)
+2015-09-24T08:14:30.707+0800 [conn134]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:30.893+0800 [conn134] end connection 127.0.0.1:58085 (19 connections now open)
+2015-09-24T08:14:30.893+0800 [conn133] end connection 127.0.0.1:58084 (19 connections now open)
+2015-09-24T08:14:35.198+0800 [initandlisten] connection accepted from 127.0.0.1:58087 #135 (19 connections now open)
+2015-09-24T08:14:35.200+0800 [initandlisten] connection accepted from 127.0.0.1:58088 #136 (20 connections now open)
+2015-09-24T08:14:35.207+0800 [conn136]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:35.325+0800 [conn136] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:14:35.326+0800 [conn136] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:14:35.326+0800 [conn136]  ntoskip:1380 ntoreturn:20
+2015-09-24T08:14:41.050+0800 [initandlisten] connection accepted from 127.0.0.1:58097 #137 (21 connections now open)
+2015-09-24T08:14:41.052+0800 [initandlisten] connection accepted from 127.0.0.1:58098 #138 (22 connections now open)
+2015-09-24T08:14:41.053+0800 [conn138]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:41.213+0800 [conn138] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 18598,
+  "yields" : 145,
+  "unyields" : 145,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 18597,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 18598,
+      "yields" : 145,
+      "unyields" : 145,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 18598,
+          "yields" : 145,
+          "unyields" : 145,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 18597,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 18598,
+              "yields" : 145,
+              "unyields" : 145,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 18596,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33575090,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 18596,
+                  "yields" : 145,
+                  "unyields" : 145,
+                  "invalidates" : 0,
+                  "advanced" : 2833,
+                  "needTime" : 15763,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 18595,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 145,
+              "unyields" : 145,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 145,
+                  "unyields" : 145,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:14:41.214+0800 [conn138] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33575090 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:14:41.214+0800 [conn138]  ntoskip:1280 ntoreturn:20
+2015-09-24T08:14:44.605+0800 [initandlisten] connection accepted from 127.0.0.1:58106 #139 (23 connections now open)
+2015-09-24T08:14:44.611+0800 [initandlisten] connection accepted from 127.0.0.1:58107 #140 (24 connections now open)
+2015-09-24T08:14:44.620+0800 [conn140]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:44.769+0800 [conn140] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 21860,
+  "yields" : 170,
+  "unyields" : 170,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 21859,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 21860,
+      "yields" : 170,
+      "unyields" : 170,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 21860,
+          "yields" : 170,
+          "unyields" : 170,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 21859,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 21860,
+              "yields" : 170,
+              "unyields" : 170,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 21858,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33575487,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 21858,
+                  "yields" : 170,
+                  "unyields" : 170,
+                  "invalidates" : 0,
+                  "advanced" : 3652,
+                  "needTime" : 18206,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 21857,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 170,
+              "unyields" : 170,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 170,
+                  "unyields" : 170,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:14:44.769+0800 [conn140] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33575487 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:14:44.769+0800 [conn140]  ntoskip:1180 ntoreturn:20
+2015-09-24T08:14:48.243+0800 [initandlisten] connection accepted from 127.0.0.1:58116 #141 (25 connections now open)
+2015-09-24T08:14:48.244+0800 [initandlisten] connection accepted from 127.0.0.1:58117 #142 (26 connections now open)
+2015-09-24T08:14:48.245+0800 [conn142]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:14:48.420+0800 [conn141] end connection 127.0.0.1:58116 (25 connections now open)
+2015-09-24T08:14:48.420+0800 [conn142] end connection 127.0.0.1:58117 (25 connections now open)
+2015-09-24T08:15:05.951+0800 [initandlisten] connection accepted from 127.0.0.1:58120 #143 (25 connections now open)
+2015-09-24T08:15:05.953+0800 [initandlisten] connection accepted from 127.0.0.1:58121 #144 (26 connections now open)
+2015-09-24T08:15:05.953+0800 [conn144]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:15:06.073+0800 [conn143] end connection 127.0.0.1:58120 (25 connections now open)
+2015-09-24T08:15:06.073+0800 [conn144] end connection 127.0.0.1:58121 (25 connections now open)
+2015-09-24T08:15:15.398+0800 [initandlisten] connection accepted from 127.0.0.1:58124 #145 (25 connections now open)
+2015-09-24T08:15:15.399+0800 [initandlisten] connection accepted from 127.0.0.1:58125 #146 (26 connections now open)
+2015-09-24T08:15:15.400+0800 [conn146]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:15:15.525+0800 [conn146] end connection 127.0.0.1:58125 (25 connections now open)
+2015-09-24T08:15:15.525+0800 [conn145] end connection 127.0.0.1:58124 (25 connections now open)
+2015-09-24T08:15:17.705+0800 [initandlisten] connection accepted from 127.0.0.1:58129 #147 (25 connections now open)
+2015-09-24T08:15:17.708+0800 [initandlisten] connection accepted from 127.0.0.1:58130 #148 (26 connections now open)
+2015-09-24T08:15:17.710+0800 [conn148]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:15:17.836+0800 [conn148] end connection 127.0.0.1:58130 (25 connections now open)
+2015-09-24T08:15:17.836+0800 [conn147] end connection 127.0.0.1:58129 (25 connections now open)
+2015-09-24T08:15:20.081+0800 [initandlisten] connection accepted from 127.0.0.1:58134 #149 (25 connections now open)
+2015-09-24T08:15:20.093+0800 [initandlisten] connection accepted from 127.0.0.1:58135 #150 (26 connections now open)
+2015-09-24T08:15:20.103+0800 [conn150]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:15:20.199+0800 [conn149] end connection 127.0.0.1:58134 (25 connections now open)
+2015-09-24T08:15:20.218+0800 [conn150] end connection 127.0.0.1:58135 (24 connections now open)
+2015-09-24T08:15:21.328+0800 [initandlisten] connection accepted from 127.0.0.1:58160 #151 (25 connections now open)
+2015-09-24T08:15:21.330+0800 [initandlisten] connection accepted from 127.0.0.1:58161 #152 (26 connections now open)
+2015-09-24T08:15:21.330+0800 [conn152]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:15:21.366+0800 [conn152] end connection 127.0.0.1:58161 (25 connections now open)
+2015-09-24T08:15:21.366+0800 [conn151] end connection 127.0.0.1:58160 (24 connections now open)
+2015-09-24T08:15:40.505+0800 [initandlisten] connection accepted from 127.0.0.1:58168 #153 (25 connections now open)
+2015-09-24T08:15:40.508+0800 [initandlisten] connection accepted from 127.0.0.1:58169 #154 (26 connections now open)
+2015-09-24T08:15:40.512+0800 [conn154]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:15:40.585+0800 [conn153] end connection 127.0.0.1:58168 (25 connections now open)
+2015-09-24T08:15:40.586+0800 [conn154] end connection 127.0.0.1:58169 (24 connections now open)
+2015-09-24T08:15:41.768+0800 [initandlisten] connection accepted from 127.0.0.1:58188 #155 (25 connections now open)
+2015-09-24T08:15:41.769+0800 [initandlisten] connection accepted from 127.0.0.1:58189 #156 (26 connections now open)
+2015-09-24T08:15:41.771+0800 [conn156]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:15:41.806+0800 [conn155] end connection 127.0.0.1:58188 (25 connections now open)
+2015-09-24T08:15:41.806+0800 [conn156] end connection 127.0.0.1:58189 (24 connections now open)
+2015-09-24T08:16:10.968+0800 [initandlisten] connection accepted from 127.0.0.1:58193 #157 (25 connections now open)
+2015-09-24T08:16:33.173+0800 [conn157] end connection 127.0.0.1:58193 (24 connections now open)
+2015-09-24T08:17:39.394+0800 [clientcursormon] mem (MB) res:2443 virt:4578
+2015-09-24T08:17:39.394+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T08:17:39.394+0800 [clientcursormon]  connections:24
+2015-09-24T08:18:37.813+0800 [initandlisten] connection accepted from 127.0.0.1:58205 #158 (25 connections now open)
+2015-09-24T08:18:37.816+0800 [initandlisten] connection accepted from 127.0.0.1:58206 #159 (26 connections now open)
+2015-09-24T08:18:37.817+0800 [conn159]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:18:37.924+0800 [conn158] end connection 127.0.0.1:58205 (25 connections now open)
+2015-09-24T08:18:37.924+0800 [conn159] end connection 127.0.0.1:58206 (25 connections now open)
+2015-09-24T08:18:41.735+0800 [initandlisten] connection accepted from 127.0.0.1:58211 #160 (25 connections now open)
+2015-09-24T08:18:41.736+0800 [initandlisten] connection accepted from 127.0.0.1:58212 #161 (26 connections now open)
+2015-09-24T08:18:41.737+0800 [conn161]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:18:41.820+0800 [conn161] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T08:18:41.820+0800 [conn161] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /SQL/i }, $orderby: { Open Time: -1 } }
+2015-09-24T08:18:41.820+0800 [conn161]  ntoskip:5940 ntoreturn:20
+2015-09-24T08:19:42.890+0800 [conn111] end connection 127.0.0.1:57992 (25 connections now open)
+2015-09-24T08:19:42.890+0800 [conn121] end connection 127.0.0.1:58030 (25 connections now open)
+2015-09-24T08:19:42.890+0800 [conn126] end connection 127.0.0.1:58053 (25 connections now open)
+2015-09-24T08:19:42.890+0800 [conn122] end connection 127.0.0.1:58031 (22 connections now open)
+2015-09-24T08:19:42.890+0800 [conn132] end connection 127.0.0.1:58076 (22 connections now open)
+2015-09-24T08:19:42.890+0800 [conn136] end connection 127.0.0.1:58088 (21 connections now open)
+2015-09-24T08:19:42.890+0800 [conn137] end connection 127.0.0.1:58097 (22 connections now open)
+2015-09-24T08:19:42.891+0800 [conn135] end connection 127.0.0.1:58087 (19 connections now open)
+2015-09-24T08:19:42.890+0800 [conn140] end connection 127.0.0.1:58107 (22 connections now open)
+2015-09-24T08:19:42.890+0800 [conn124] end connection 127.0.0.1:58042 (25 connections now open)
+2015-09-24T08:19:42.891+0800 [conn138] end connection 127.0.0.1:58098 (16 connections now open)
+2015-09-24T08:19:42.891+0800 [conn123] end connection 127.0.0.1:58041 (20 connections now open)
+2015-09-24T08:19:42.891+0800 [conn128] end connection 127.0.0.1:58064 (16 connections now open)
+2015-09-24T08:19:42.891+0800 [conn120] end connection 127.0.0.1:58019 (14 connections now open)
+2015-09-24T08:19:42.891+0800 [conn139] end connection 127.0.0.1:58106 (13 connections now open)
+2015-09-24T08:19:42.891+0800 [conn131] end connection 127.0.0.1:58075 (13 connections now open)
+2015-09-24T08:19:42.891+0800 [conn160] end connection 127.0.0.1:58211 (16 connections now open)
+2015-09-24T08:19:42.890+0800 [conn161] end connection 127.0.0.1:58212 (22 connections now open)
+2015-09-24T08:19:42.890+0800 [conn119] end connection 127.0.0.1:58018 (25 connections now open)
+2015-09-24T08:19:42.891+0800 [conn127] end connection 127.0.0.1:58063 (16 connections now open)
+2015-09-24T08:19:42.891+0800 [conn125] end connection 127.0.0.1:58052 (17 connections now open)
+2015-09-24T08:19:42.891+0800 [conn112] end connection 127.0.0.1:57993 (11 connections now open)
+2015-09-24T08:20:46.101+0800 [conn52] end connection 127.0.0.1:55511 (3 connections now open)
+2015-09-24T08:20:46.115+0800 [conn51] killcursors: found 0 of 1
+2015-09-24T08:20:46.116+0800 [conn51] killcursors: found 0 of 1
+2015-09-24T08:20:46.116+0800 [conn51] end connection 127.0.0.1:55510 (2 connections now open)
+2015-09-24T08:20:46.135+0800 [conn50] end connection 127.0.0.1:55509 (1 connection now open)
+2015-09-24T08:20:46.137+0800 [conn49] end connection 127.0.0.1:55508 (0 connections now open)
+2015-09-24T08:20:53.674+0800 [initandlisten] MongoDB starting : pid=14543 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T08:20:53.675+0800 [initandlisten] db version v2.6.3
+2015-09-24T08:20:53.675+0800 [initandlisten] git version: nogitversion
+2015-09-24T08:20:53.675+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T08:20:53.675+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T08:20:53.675+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T08:20:53.675+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T08:20:53.675+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T08:20:53.675+0800 [initandlisten] dbexit: 
+2015-09-24T08:20:53.675+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T08:20:53.675+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T08:20:53.675+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T08:20:53.675+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T08:20:53.675+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T08:20:53.675+0800 [initandlisten] shutdown: final commit...
+2015-09-24T08:20:53.675+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T08:20:53.675+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T08:20:53.675+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T08:20:54.770+0800 [initandlisten] connection accepted from 127.0.0.1:58227 #162 (1 connection now open)
+2015-09-24T08:20:54.772+0800 [initandlisten] connection accepted from 127.0.0.1:58228 #163 (2 connections now open)
+2015-09-24T08:20:54.772+0800 [conn163]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T08:20:55.354+0800 [conn162] end connection 127.0.0.1:58227 (1 connection now open)
+2015-09-24T08:20:55.354+0800 [conn163] end connection 127.0.0.1:58228 (1 connection now open)
+2015-09-24T08:22:39.411+0800 [clientcursormon] mem (MB) res:2446 virt:4578
+2015-09-24T08:22:39.411+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T08:22:39.412+0800 [clientcursormon]  connections:0
+2015-09-24T08:51:56.026+0800 [clientcursormon] mem (MB) res:2446 virt:4578
+2015-09-24T08:51:56.026+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T08:51:56.026+0800 [clientcursormon]  connections:0
+2015-09-24T08:56:56.862+0800 [clientcursormon] mem (MB) res:2446 virt:4578
+2015-09-24T08:56:56.862+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T08:56:56.862+0800 [clientcursormon]  connections:0
+2015-09-24T09:01:56.876+0800 [clientcursormon] mem (MB) res:2446 virt:4578
+2015-09-24T09:01:56.876+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T09:01:56.876+0800 [clientcursormon]  connections:0
+2015-09-24T09:06:56.891+0800 [clientcursormon] mem (MB) res:2446 virt:4578
+2015-09-24T09:06:56.891+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T09:06:56.891+0800 [clientcursormon]  connections:0
+2015-09-24T09:07:57.374+0800 [initandlisten] connection accepted from 127.0.0.1:58488 #164 (1 connection now open)
+2015-09-24T09:07:57.376+0800 [initandlisten] connection accepted from 127.0.0.1:58489 #165 (2 connections now open)
+2015-09-24T09:07:57.376+0800 [conn165]  authenticate db: wooyun_openbug { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:07:57.376+0800 [conn165] Failed to authenticate wooyun@wooyun_openbug with mechanism MONGODB-CR: AuthenticationFailed UserNotFound Could not find user wooyun@wooyun_openbug
+2015-09-24T09:07:57.897+0800 [conn164] end connection 127.0.0.1:58488 (1 connection now open)
+2015-09-24T09:07:57.897+0800 [conn165] end connection 127.0.0.1:58489 (1 connection now open)
+2015-09-24T09:08:48.471+0800 [initandlisten] connection accepted from 127.0.0.1:58495 #166 (1 connection now open)
+2015-09-24T09:08:48.473+0800 [initandlisten] connection accepted from 127.0.0.1:58496 #167 (2 connections now open)
+2015-09-24T09:08:48.473+0800 [conn167]  authenticate db: wooyun_openbug { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:08:48.473+0800 [conn167] Failed to authenticate wooyun@wooyun_openbug with mechanism MONGODB-CR: AuthenticationFailed UserNotFound Could not find user wooyun@wooyun_openbug
+2015-09-24T09:08:48.992+0800 [conn166] end connection 127.0.0.1:58495 (1 connection now open)
+2015-09-24T09:08:48.992+0800 [conn167] end connection 127.0.0.1:58496 (1 connection now open)
+2015-09-24T09:09:09.719+0800 [initandlisten] connection accepted from 127.0.0.1:58497 #168 (1 connection now open)
+2015-09-24T09:09:09.720+0800 [initandlisten] connection accepted from 127.0.0.1:58498 #169 (2 connections now open)
+2015-09-24T09:09:09.721+0800 [conn169]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:09:10.239+0800 [conn169] end connection 127.0.0.1:58498 (1 connection now open)
+2015-09-24T09:09:10.239+0800 [conn168] end connection 127.0.0.1:58497 (1 connection now open)
+2015-09-24T09:11:38.191+0800 [initandlisten] connection accepted from 127.0.0.1:58515 #170 (1 connection now open)
+2015-09-24T09:11:38.192+0800 [conn170]  authenticate db: wooyun { authenticate: 1, nonce: "xxx", user: "wooyun", key: "xxx" }
+2015-09-24T09:11:38.202+0800 [initandlisten] connection accepted from 127.0.0.1:58516 #171 (2 connections now open)
+2015-09-24T09:11:38.202+0800 [conn171]  authenticate db: wooyun { authenticate: 1, nonce: "xxx", user: "wooyun", key: "xxx" }
+2015-09-24T09:11:56.908+0800 [clientcursormon] mem (MB) res:2446 virt:4578
+2015-09-24T09:11:56.908+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T09:11:56.908+0800 [clientcursormon]  connections:2
+2015-09-24T09:12:55.835+0800 [initandlisten] connection accepted from 127.0.0.1:58534 #172 (3 connections now open)
+2015-09-24T09:12:55.837+0800 [initandlisten] connection accepted from 127.0.0.1:58535 #173 (4 connections now open)
+2015-09-24T09:12:55.837+0800 [conn173]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:12:55.940+0800 [conn172] end connection 127.0.0.1:58534 (3 connections now open)
+2015-09-24T09:12:55.940+0800 [conn173] end connection 127.0.0.1:58535 (3 connections now open)
+2015-09-24T09:13:38.231+0800 [initandlisten] connection accepted from 127.0.0.1:58571 #174 (3 connections now open)
+2015-09-24T09:13:38.231+0800 [conn174]  authenticate db: wooyun { authenticate: 1, nonce: "xxx", user: "wooyun", key: "xxx" }
+2015-09-24T09:13:38.242+0800 [initandlisten] connection accepted from 127.0.0.1:58572 #175 (4 connections now open)
+2015-09-24T09:13:38.242+0800 [conn175]  authenticate db: wooyun { authenticate: 1, nonce: "xxx", user: "wooyun", key: "xxx" }
+2015-09-24T09:13:57.563+0800 [conn174] assertion 17287 Can't canonicalize query: BadValue sort must be object or array ns:wooyun.wooyuno_penbug query:{ query: {}, orderby: "Open Time" }
+2015-09-24T09:15:49.976+0800 [initandlisten] connection accepted from 127.0.0.1:58604 #176 (5 connections now open)
+2015-09-24T09:15:49.978+0800 [initandlisten] connection accepted from 127.0.0.1:58605 #177 (6 connections now open)
+2015-09-24T09:15:49.978+0800 [conn177]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:15:50.075+0800 [conn177] end connection 127.0.0.1:58605 (5 connections now open)
+2015-09-24T09:15:50.075+0800 [conn176] end connection 127.0.0.1:58604 (5 connections now open)
+2015-09-24T09:15:58.370+0800 [initandlisten] connection accepted from 127.0.0.1:58614 #178 (5 connections now open)
+2015-09-24T09:15:58.376+0800 [initandlisten] connection accepted from 127.0.0.1:58615 #179 (6 connections now open)
+2015-09-24T09:15:58.380+0800 [conn179]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:15:58.445+0800 [conn179] ERROR: Runner error, stats:
+{ "type" : "SKIP",
+  "works" : 11139,
+  "yields" : 87,
+  "unyields" : 87,
+  "invalidates" : 0,
+  "advanced" : 0,
+  "needTime" : 11138,
+  "needFetch" : 0,
+  "isEOF" : 0,
+  "children" : [ 
+    { "type" : "PROJECTION",
+      "works" : 11139,
+      "yields" : 87,
+      "unyields" : 87,
+      "invalidates" : 0,
+      "advanced" : 0,
+      "needTime" : 0,
+      "needFetch" : 0,
+      "isEOF" : 0,
+      "children" : [ 
+        { "type" : "OR",
+          "works" : 11139,
+          "yields" : 87,
+          "unyields" : 87,
+          "invalidates" : 0,
+          "advanced" : 0,
+          "needTime" : 11138,
+          "needFetch" : 0,
+          "isEOF" : 0,
+          "dupsTested" : 0,
+          "dupsDropped" : 0,
+          "locsForgotten" : 0,
+          "matchTested_0" : 0,
+          "matchTested_1" : 0,
+          "children" : [ 
+            { "type" : "SORT",
+              "works" : 11139,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 11137,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 33562776,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 11137,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 1373,
+                  "needTime" : 9764,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 11136,
+                  "children" : [] } ] }, 
+            { "type" : "SORT",
+              "works" : 0,
+              "yields" : 87,
+              "unyields" : 87,
+              "invalidates" : 0,
+              "advanced" : 0,
+              "needTime" : 0,
+              "needFetch" : 0,
+              "isEOF" : 0,
+              "forcedFetches" : 0,
+              "memUsage" : 0,
+              "memLimit" : 33554432,
+              "children" : [ 
+                { "type" : "COLLSCAN",
+                  "works" : 0,
+                  "yields" : 87,
+                  "unyields" : 87,
+                  "invalidates" : 0,
+                  "advanced" : 0,
+                  "needTime" : 0,
+                  "needFetch" : 0,
+                  "isEOF" : 0,
+                  "docsTested" : 0,
+                  "children" : [] } ] } ] } ] } ] }
+2015-09-24T09:15:58.445+0800 [conn179] assertion 17144 Runner error: Overflow sort stage buffered data usage of 33562776 bytes exceeds internal limit of 33554432 bytes ns:wooyun.wooyuno_penbug query:{ $query: { Title: /sql/i }, $orderby: { Open Time: -1 } }
+2015-09-24T09:15:58.445+0800 [conn179]  ntoskip:5940 ntoreturn:20
+2015-09-24T09:16:56.922+0800 [clientcursormon] mem (MB) res:2448 virt:4581
+2015-09-24T09:16:56.922+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T09:16:56.922+0800 [clientcursormon]  connections:6
+2015-09-24T09:18:47.958+0800 [initandlisten] connection accepted from 127.0.0.1:58651 #180 (7 connections now open)
+2015-09-24T09:18:47.959+0800 [initandlisten] connection accepted from 127.0.0.1:58652 #181 (8 connections now open)
+2015-09-24T09:18:47.961+0800 [conn181]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:18:48.018+0800 [conn180] end connection 127.0.0.1:58651 (7 connections now open)
+2015-09-24T09:18:48.019+0800 [conn181] end connection 127.0.0.1:58652 (6 connections now open)
+2015-09-24T09:19:05.320+0800 [initandlisten] connection accepted from 127.0.0.1:58654 #182 (7 connections now open)
+2015-09-24T09:19:05.322+0800 [initandlisten] connection accepted from 127.0.0.1:58655 #183 (8 connections now open)
+2015-09-24T09:19:05.323+0800 [conn183]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:19:05.357+0800 [conn182] end connection 127.0.0.1:58654 (7 connections now open)
+2015-09-24T09:19:05.357+0800 [conn183] end connection 127.0.0.1:58655 (7 connections now open)
+2015-09-24T09:21:56.936+0800 [clientcursormon] mem (MB) res:2448 virt:4581
+2015-09-24T09:21:56.936+0800 [clientcursormon]  mapped (incl journal view):4320
+2015-09-24T09:21:56.936+0800 [clientcursormon]  connections:6
+2015-09-24T09:23:03.091+0800 [initandlisten] connection accepted from 127.0.0.1:58673 #184 (7 connections now open)
+2015-09-24T09:23:03.092+0800 [initandlisten] connection accepted from 127.0.0.1:58674 #185 (8 connections now open)
+2015-09-24T09:23:03.093+0800 [conn185]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:23:03.611+0800 [conn184] end connection 127.0.0.1:58673 (7 connections now open)
+2015-09-24T09:23:03.611+0800 [conn185] end connection 127.0.0.1:58674 (7 connections now open)
+2015-09-24T09:23:15.903+0800 [initandlisten] connection accepted from 127.0.0.1:58675 #186 (7 connections now open)
+2015-09-24T09:23:15.904+0800 [initandlisten] connection accepted from 127.0.0.1:58676 #187 (8 connections now open)
+2015-09-24T09:23:15.905+0800 [conn187]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:23:16.422+0800 [conn186] end connection 127.0.0.1:58675 (7 connections now open)
+2015-09-24T09:23:16.422+0800 [conn187] end connection 127.0.0.1:58676 (7 connections now open)
+2015-09-24T09:23:29.933+0800 [initandlisten] connection accepted from 127.0.0.1:58677 #188 (7 connections now open)
+2015-09-24T09:23:29.934+0800 [initandlisten] connection accepted from 127.0.0.1:58678 #189 (8 connections now open)
+2015-09-24T09:23:29.934+0800 [conn189]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:23:30.452+0800 [conn188] end connection 127.0.0.1:58677 (7 connections now open)
+2015-09-24T09:23:30.452+0800 [conn189] end connection 127.0.0.1:58678 (7 connections now open)
+2015-09-24T09:24:07.866+0800 [initandlisten] connection accepted from 127.0.0.1:58682 #190 (7 connections now open)
+2015-09-24T09:24:07.868+0800 [initandlisten] connection accepted from 127.0.0.1:58683 #191 (8 connections now open)
+2015-09-24T09:24:07.868+0800 [conn191]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:24:08.386+0800 [conn191] end connection 127.0.0.1:58683 (7 connections now open)
+2015-09-24T09:24:08.386+0800 [conn190] end connection 127.0.0.1:58682 (7 connections now open)
+2015-09-24T09:24:19.156+0800 [initandlisten] connection accepted from 127.0.0.1:58684 #192 (7 connections now open)
+2015-09-24T09:24:19.157+0800 [initandlisten] connection accepted from 127.0.0.1:58685 #193 (8 connections now open)
+2015-09-24T09:24:19.158+0800 [conn193]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:24:19.159+0800 [conn192] end connection 127.0.0.1:58684 (7 connections now open)
+2015-09-24T09:24:19.159+0800 [conn193] end connection 127.0.0.1:58685 (6 connections now open)
+2015-09-24T09:25:04.126+0800 [initandlisten] connection accepted from 127.0.0.1:58688 #194 (7 connections now open)
+2015-09-24T09:25:04.128+0800 [initandlisten] connection accepted from 127.0.0.1:58689 #195 (8 connections now open)
+2015-09-24T09:25:04.128+0800 [conn195]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:25:04.129+0800 [conn195] end connection 127.0.0.1:58689 (7 connections now open)
+2015-09-24T09:25:04.130+0800 [conn194] end connection 127.0.0.1:58688 (7 connections now open)
+2015-09-24T09:25:14.349+0800 [initandlisten] connection accepted from 127.0.0.1:58692 #196 (7 connections now open)
+2015-09-24T09:25:14.350+0800 [initandlisten] connection accepted from 127.0.0.1:58693 #197 (8 connections now open)
+2015-09-24T09:25:14.350+0800 [conn197]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:25:14.351+0800 [conn196] end connection 127.0.0.1:58692 (7 connections now open)
+2015-09-24T09:25:14.351+0800 [conn197] end connection 127.0.0.1:58693 (6 connections now open)
+2015-09-24T09:25:50.193+0800 [initandlisten] connection accepted from 127.0.0.1:58698 #198 (7 connections now open)
+2015-09-24T09:25:50.194+0800 [initandlisten] connection accepted from 127.0.0.1:58699 #199 (8 connections now open)
+2015-09-24T09:25:50.194+0800 [conn199]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:25:50.196+0800 [conn198] end connection 127.0.0.1:58698 (7 connections now open)
+2015-09-24T09:25:50.196+0800 [conn199] end connection 127.0.0.1:58699 (7 connections now open)
+2015-09-24T09:26:04.446+0800 [initandlisten] connection accepted from 127.0.0.1:58701 #200 (7 connections now open)
+2015-09-24T09:26:04.447+0800 [initandlisten] connection accepted from 127.0.0.1:58702 #201 (8 connections now open)
+2015-09-24T09:26:04.448+0800 [conn201]  authenticate db: wooyun { authenticate: 1, user: "wooyun", nonce: "xxx", key: "xxx" }
+2015-09-24T09:26:04.448+0800 [conn200] end connection 127.0.0.1:58701 (7 connections now open)
+2015-09-24T09:26:04.448+0800 [conn201] end connection 127.0.0.1:58702 (7 connections now open)
+                                                                                                                                                                                                                         2015-09-24T09:36:46.002+0800 [initandlisten] MongoDB starting : pid=5016 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T09:36:46.003+0800 [initandlisten] db version v2.6.3
+2015-09-24T09:36:46.003+0800 [initandlisten] git version: nogitversion
+2015-09-24T09:36:46.003+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T09:36:46.003+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T09:36:46.003+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T09:36:46.003+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T09:36:46.003+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T09:36:46.003+0800 [initandlisten] dbexit: 
+2015-09-24T09:36:46.003+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T09:36:46.003+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T09:36:46.003+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T09:36:46.003+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T09:36:46.003+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T09:36:46.003+0800 [initandlisten] shutdown: final commit...
+2015-09-24T09:36:46.003+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T09:36:46.003+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T09:36:46.003+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T09:42:06.393+0800 [initandlisten] MongoDB starting : pid=5195 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T09:42:06.394+0800 [initandlisten] db version v2.6.3
+2015-09-24T09:42:06.394+0800 [initandlisten] git version: nogitversion
+2015-09-24T09:42:06.394+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T09:42:06.394+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T09:42:06.394+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T09:42:06.394+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T09:42:06.394+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T09:42:06.394+0800 [initandlisten] dbexit: 
+2015-09-24T09:42:06.394+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T09:42:06.394+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T09:42:06.394+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T09:42:06.394+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T09:42:06.394+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T09:42:06.394+0800 [initandlisten] shutdown: final commit...
+2015-09-24T09:42:06.394+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T09:42:06.394+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T09:42:06.394+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T10:38:09.570+0800 [initandlisten] MongoDB starting : pid=5908 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T10:38:09.570+0800 [initandlisten] db version v2.6.3
+2015-09-24T10:38:09.570+0800 [initandlisten] git version: nogitversion
+2015-09-24T10:38:09.570+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T10:38:09.570+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T10:38:09.570+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T10:38:09.570+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T10:38:09.570+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T10:38:09.570+0800 [initandlisten] dbexit: 
+2015-09-24T10:38:09.570+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T10:38:09.570+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T10:38:09.570+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T10:38:09.570+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T10:38:09.570+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T10:38:09.570+0800 [initandlisten] shutdown: final commit...
+2015-09-24T10:38:09.570+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T10:38:09.570+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T10:38:09.570+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T10:40:18.694+0800 [initandlisten] MongoDB starting : pid=6100 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T10:40:18.694+0800 [initandlisten] db version v2.6.3
+2015-09-24T10:40:18.694+0800 [initandlisten] git version: nogitversion
+2015-09-24T10:40:18.694+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T10:40:18.694+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T10:40:18.694+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T10:40:18.694+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T10:40:18.694+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T10:40:18.694+0800 [initandlisten] dbexit: 
+2015-09-24T10:40:18.694+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T10:40:18.694+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T10:40:18.694+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T10:40:18.694+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T10:40:18.694+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T10:40:18.694+0800 [initandlisten] shutdown: final commit...
+2015-09-24T10:40:18.694+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T10:40:18.694+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T10:40:18.695+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T11:55:34.611+0800 [initandlisten] MongoDB starting : pid=7233 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T11:55:34.611+0800 [initandlisten] db version v2.6.3
+2015-09-24T11:55:34.611+0800 [initandlisten] git version: nogitversion
+2015-09-24T11:55:34.611+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T11:55:34.611+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T11:55:34.611+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T11:55:34.611+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T11:55:34.612+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T11:55:34.612+0800 [initandlisten] dbexit: 
+2015-09-24T11:55:34.612+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T11:55:34.612+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T11:55:34.612+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T11:55:34.612+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T11:55:34.612+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T11:55:34.612+0800 [initandlisten] shutdown: final commit...
+2015-09-24T11:55:34.612+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T11:55:34.612+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T11:55:34.612+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T12:40:55.661+0800 [initandlisten] MongoDB starting : pid=8071 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T12:40:55.661+0800 [initandlisten] db version v2.6.3
+2015-09-24T12:40:55.661+0800 [initandlisten] git version: nogitversion
+2015-09-24T12:40:55.661+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T12:40:55.661+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T12:40:55.661+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T12:40:55.661+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T12:40:55.661+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T12:40:55.661+0800 [initandlisten] dbexit: 
+2015-09-24T12:40:55.661+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T12:40:55.661+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T12:40:55.661+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T12:40:55.661+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T12:40:55.661+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T12:40:55.661+0800 [initandlisten] shutdown: final commit...
+2015-09-24T12:40:55.661+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T12:40:55.661+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T12:40:55.661+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T20:22:30.654+0800 [initandlisten] MongoDB starting : pid=11056 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T20:22:30.654+0800 [initandlisten] db version v2.6.3
+2015-09-24T20:22:30.654+0800 [initandlisten] git version: nogitversion
+2015-09-24T20:22:30.654+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T20:22:30.654+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T20:22:30.654+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T20:22:30.654+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T20:22:30.654+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T20:22:30.654+0800 [initandlisten] dbexit: 
+2015-09-24T20:22:30.654+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T20:22:30.654+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T20:22:30.654+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T20:22:30.654+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T20:22:30.655+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T20:22:30.655+0800 [initandlisten] shutdown: final commit...
+2015-09-24T20:22:30.655+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T20:22:30.655+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T20:22:30.655+0800 [initandlisten] dbexit: really exiting now
+2015-09-24T20:23:51.459+0800 [initandlisten] MongoDB starting : pid=11137 port=27017 dbpath=/home/arses/mongodb/data 64-bit host=arses
+2015-09-24T20:23:51.459+0800 [initandlisten] db version v2.6.3
+2015-09-24T20:23:51.459+0800 [initandlisten] git version: nogitversion
+2015-09-24T20:23:51.459+0800 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2015-09-24T20:23:51.459+0800 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2015-09-24T20:23:51.459+0800 [initandlisten] allocator: tcmalloc
+2015-09-24T20:23:51.459+0800 [initandlisten] options: { storage: { dbPath: "/home/arses/mongodb/data" } }
+2015-09-24T20:23:51.459+0800 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/arses/mongodb/data/mongod.lock. Is a mongod instance already running?, terminating
+2015-09-24T20:23:51.459+0800 [initandlisten] dbexit: 
+2015-09-24T20:23:51.459+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-09-24T20:23:51.459+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-09-24T20:23:51.459+0800 [initandlisten] shutdown: going to close sockets...
+2015-09-24T20:23:51.459+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-09-24T20:23:51.459+0800 [initandlisten] shutdown: lock for final commit...
+2015-09-24T20:23:51.459+0800 [initandlisten] shutdown: final commit...
+2015-09-24T20:23:51.459+0800 [initandlisten] shutdown: closing all files...
+2015-09-24T20:23:51.459+0800 [initandlisten] closeAllFiles() finished
+2015-09-24T20:23:51.459+0800 [initandlisten] dbexit: really exiting now
